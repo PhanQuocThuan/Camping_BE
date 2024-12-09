@@ -1,0 +1,140 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+        <div class="row mt-5">
+                <div class="col-8">
+                  <img
+                    src="~/img/Naturehikepng.png"
+                    class="img-fluid w-100 h-100"
+                    alt=""
+                  />
+                </div>
+            <div class="col text-center">
+              <h2>LỀU 2 - 3 NGƯỜI, 2 LỚP NATUREHIKE CNK2300ZP024</h2>
+              <div class="row">
+                <div class="col">
+                  <div class="rating">
+                    <input value="5" name="rate" id="star5" type="radio" />
+                    <label title="text" for="star5"></label>
+                    <input
+                      value="4"
+                      name="rate"
+                      id="star4"
+                      type="radio"
+                      checked=""
+                    />
+                    <label title="text" for="star4"></label>
+                    <input value="3" name="rate" id="star3" type="radio" />
+                    <label title="text" for="star3"></label>
+                    <input value="2" name="rate" id="star2" type="radio" />
+                    <label title="text" for="star2"></label>
+                    <input value="1" name="rate" id="star1" type="radio" />
+                    <label title="text" for="star1"></label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <h3>Giá: 1,962,000 đ</h3>
+              </div>
+              <div
+                class="row d-flex justify-content-center text-center border-2 border-top"
+              >
+                  <div class="fs-3">Kích thước</div>
+                    <div class="radio-input-size">
+                        <label>
+                            <input value="value-1" name="size" id="value-1" type="radio" />
+                            <span>2 Người</span>
+                        </label>
+                        <label>
+                    <input value="value-2" name="size" id="value-2" type="radio" />
+                            <span>3 Người</span>
+                        </label>
+                        <span class="selection"></span>
+                    </div>
+
+               </div>
+            <div class="row text-center d-flex justify-content-center my-1">
+                <div class="fs-3">Chọn màu</div>
+                <div class="radio-input">
+                    <label>
+                        <input type="radio" id="value-1" name="value-radio" value="1" />
+                        <span>Red</span>
+                    </label>
+                    <label>
+                        <input type="radio" id="value-2" name="value-radio" value="2" />
+                        <span>Yellow</span>
+                    </label>
+                    <span class="selection"></span>
+                </div>
+             </div>
+            <div class="row text-center d-flex justify-content-center my-1">
+                    <div class="fs-3 title align-text-bottom">Số lượng</div>
+                    <div class="input-group quantity rounded-pill mt-2" style="width: 13rem; height: 3rem;">
+                        <div class="input-group-btn">
+                                <button class="btn btn-sm btn-minus rounded-circle bg-danger border"
+                                style="height: 3rem; width: 3rem;"
+                                onclick="subtractValue();">
+                                    <i class="fa fa-minus text-black"></i>
+                                </button>
+                        </div>
+                        <input type="text" class="form-control text-center border-start-0 border-end-0 fs-4" min="1" max="100" value="1">
+                        <div class="input-group-btn">
+                                <button class="btn btn-sm btn-plus rounded-circle bg-success border"
+                                style="height: 3rem; width: 3rem;"
+                                onclick="addValue();">
+                                    <i class="fa fa-plus text-white"></i>
+                                </button>
+                        </div>
+                    </div>
+            </div>
+            <div class="row my-3">
+                <div class="col rounded-pill d-flex justify-content-center">
+                    <button>
+                        <span class="transition"></span>
+                        <span class="gradient"></span>
+                        <span class="label">Add to Cart</span>
+                    </button>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h4>Mô tả sản phẩm</h4>
+              <p>
+                Sản phẩm Lều 2-3 người 2 lớp cắm trại Naturehike CNK2300ZP024 là
+                một lựa chọn tốt cho những ai yêu thích hoạt động cắm trại hoặc
+                du lịch ngoài trời. Được thiết kế với kích thước vừa phải, lều
+                này có khả năng chứa được 2 đến 3 người, tạo ra không gian thoải
+                mái để ngủ và nghỉ ngơi.Lều CNK2300ZP024 có cấu trúc 2 lớp, giúp
+                bảo vệ người dùng khỏi các yếu tố thời tiết như mưa, gió hay
+                nắng chói chang. Lớp ngoài chống thấm nước tốt, đảm bảo bên
+                trong lều luôn khô ráo và thoải mái. Lớp trong có thể tháo rời,
+                giúp tiện lợi trong việc vệ sinh và bảo dưỡng lều.
+              </p>
+            </div>
+            <div class="col">
+              <h4>Đánh giá của khách hàng</h4>
+            </div>
+          </div>
+        </div>
+        <script>
+    const inputNumber = document.querySelector(".input-group input");
+
+    const addValue = () => {
+        const currentValue = Number(inputNumber.value);
+        const maxValue = Number(inputNumber.max);
+        if (currentValue < maxValue) {
+            inputNumber.value = Number(inputNumber.value) + 1;
+        }
+    };
+    const subtractValue = () => {
+        const currentValue = Number(inputNumber.value);
+        const minValue = Number(inputNumber.min);
+        if (currentValue > minValue) {
+            inputNumber.value = Number(inputNumber.value) - 1;
+        }
+    };
+        </script>
+      

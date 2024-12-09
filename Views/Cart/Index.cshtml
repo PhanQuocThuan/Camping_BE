@@ -1,0 +1,170 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Camping Cart";
+}
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Sản phẩm</th>
+                        <th scope="col">Tên</th>
+                        <th scope="col">Giá</th>
+                        <th scope="col">Số lượng</th>
+                        <th scope="col">Tổng giá sản phẩm</th>
+                        <th scope="col">Xóa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <div class="d-flex align-items-center">
+                                <img src="img/Naturehikepng.png"
+                                     class="img-fluid me-5 rounded-circle"
+                                     style="width: 80px; height: 80px"
+                                     alt="" />
+                            </div>
+                        </th>
+                        <td>
+                            <p class="mb-0 mt-4">Naturehike</p>
+                        </td>
+                        <td>
+                            <p class="mb-0 mt-4">1,962,000 đ</p>
+                        </td>
+                        <td>
+                            <div class="input-group quantity mt-4"
+                                 style="width: 100px">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-minus rounded-circle bg-light border"
+                                            onclick="subtractValue();">
+                                        <i class="fa fa-minus"></i>
+                                    </button>
+                                </div>
+                                <input type="text"
+                                       class="form-control form-control-sm text-center border-0"
+                                       value="1"
+                                       min="1"
+                                       max="100" />
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-plus rounded-circle bg-light border"
+                                            onclick="addValue();">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="mb-0 mt-4">1,962,000 đ</p>
+                        </td>
+                        <td>
+                            <button class="btn btn-md rounded-circle bg-light border mt-4">
+                                <i class="fa fa-times text-danger"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <div class="d-flex align-items-center">
+                                <img src="img/MADFOX.jpg"
+                                     class="img-fluid me-5 rounded-circle"
+                                     style="width: 80px; height: 80px"
+                                     alt=""/>
+                            </div>
+                        </th>
+                        <td>
+                            <p class="mb-0 mt-4">Madfox</p>
+                        </td>
+                        <td>
+                            <p class="mb-0 mt-4">2,890,000 đ</p>
+                        </td>
+                        <td>
+                            <div class="input-group quantity mt-4"
+                                 style="width: 100px">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-minus rounded-circle bg-light border" onclick="subtractValue();">
+                                        <i class="fa fa-minus"></i>
+                                    </button>
+                                </div>
+                                <input type="text"
+                                       class="form-control form-control-sm text-center border-0"
+                                       value="1"
+                                       min="1"
+                                       max="100" />
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-plus rounded-circle bg-light border" onclick="addValue();">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="mb-0 mt-4">2,890,000 đ</p>
+                        </td>
+                        <td>
+                            <button class="btn btn-md rounded-circle bg-light border mt-4">
+                                <i class="fa fa-times text-danger"></i>
+                            </button>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <div class="d-flex align-items-center">
+                                <img src="img/VULTURA.jpg"
+                                     class="img-fluid me-5 rounded-circle"
+                                     style="width: 80px; height: 80px"
+                                     alt=""
+                                      />
+                            </div>
+                        </th>
+                        <td>
+                            <p class="mb-0 mt-4">Vultura</p>
+                        </td>
+                        <td>
+                            <p class="mb-0 mt-4">849,000 đ</p>
+                        </td>
+                        <td>
+                            <div class="input-group quantity mt-4"
+                                 style="width: 100px">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-minus rounded-circle bg-light border" onclick="subtractValue();">
+                                        <i class="fa fa-minus"></i>
+                                    </button>
+                                </div>
+                                <input type="text"
+                                       class="form-control form-control-sm text-center border-0"
+                                       value="1" 
+                                       min="1"
+                                       max="100" />
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-plus rounded-circle bg-light border" onclick="addValue();">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="mb-0 mt-4">849,000 đ</p>
+                        </td>
+                        <td>
+                            <button class="btn btn-md rounded-circle bg-light border mt-4">
+                                <i class="fa fa-times text-danger"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class=" mt-5 text-center">
+            <h3>Tổng giá thành: 5,701,000 đ</h3>
+            <button>
+                <span class="transition"></span>
+                <span class="gradient"></span>
+                <span class="label">Thanh toán</span>
+            </button>
+        </div>
+    </div>
+    

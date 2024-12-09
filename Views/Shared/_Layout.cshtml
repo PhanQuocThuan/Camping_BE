@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camping Equipment</title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white">
+        <div class="container-fluid justify-content-start">
+            <div class="col-1">
+                <a asp-controller="home" asp-action="index" class="offset-1">
+                    <img src="~/img/logo.jpg" class="img-fluid w-100 h-100" alt="Logo" />
+                </a>
+            </div>
+            <form class="form w-25 h-25 offset-1">
+                <button class="mb-1">
+                    <i class="fas fa-search"></i>
+                </button>
+                <input class="input"
+                       placeholder="Search..."
+                       required=""
+                       type="text" />
+            </form>
+            <div class="d-flex align-items-center offset-3 me-3">
+                <a href="#" class="text-black text-decoration-none">Đăng nhập</a>
+            </div>
+            <div class="col fw-light">
+                <a asp-controller="cart" asp-action="index"
+                   class="text-decoration-none text-black-50 d-flex align-items-center">
+                    Giỏ hàng/ 1000000đ
+                    <i class="fa-solid fa-cart-shopping fa-2x ms-2 position-relative">
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-white bg-danger">3</span>
+                    </i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <marquee class="bg-primary text-white" direction="left" scrollamount="15">
+        <strong>Địa chỉ</strong>: Công viên Phần mềm Quang Trung, Tòa nhà SaigonTech, Lô
+        14 Đường Số 5, Tân Chánh Hiệp, Quận 12, Hồ Chí Minh 700000, Việt
+        Nam, <strong>SĐT</strong>: 090909090, <strong>Email</strong>: saigontech.edu.vn
+    </marquee>
+    <ul class="list bg-primary d-flex justify-content-center fs-4">
+        <li class="nav-item">
+            <a asp-controller="home" asp-action="index" class="link">Trang Chủ</a>
+        </li>
+        <li class="nav-item dropdown">
+            <div class="menu">
+                <div class="item">
+                    <a href="#" class="link fs-4">
+                        <span> Du lịch </span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <div class="submenu text-primary">
+                        <div class="submenu-item">
+                            <a href="#" class="submenu-link">Trang Phục</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="#" class="submenu-link">Hành Lý</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="#" class="submenu-link">Hành Trang</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="#" class="submenu-link">Phụ Kiện</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <div class="menu">
+                <div class="item">
+                    <a href="#" class="link fs-4">
+                        <span> Cắm trại - Camping </span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <div class="submenu text-primary">
+                        <div class="submenu-item">
+                            <a href="#" class="submenu-link">Liều Trại </a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="#" class="submenu-link">Dụng cụ nấu ăn</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="#" class="submenu-link">Bàn ghế Dã Ngoại</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="#" class="submenu-link">Phụ Kiện Cắm Trại</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="nav-item dropdown justify-content-center">
+            <div class="menu">
+                <div class="item">
+                    <a href="#" class="link fs-4">
+                        <span> Hoạt động ngoài trời </span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <div class="submenu text-primary">
+                        <div class="submenu-item">
+                            <a href="#" class="submenu-link">Thể thao dưới nước </a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="#" class="submenu-link">Đồ chạy bộ</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="#" class="submenu-link">Phụ kiện xe đạp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </li>
+        <li class="nav-item"><a asp-controller="contact" asp-action="index" class="link">Liên Hệ</a></li>
+    </ul>
+
+    <div class="text-center">
+            @RenderBody()
+    </div>
+    <div class="footer">
+        <div class="container py-3">
+            <div class="row rounded-pill">
+                <div class="col py-3">
+                    <div class="card rounded-pill text-center ">
+                        <img src="~/img/logo.jpg" class="img-fluid w-100 h-100 rounded-pill" alt="Logo" />
+                        <div class="card__content">
+                            <p class="card__title">Về chúng tôi</p>
+                            <p class="card__description">
+                                <strong>Camping Equipment</strong> là cửa hàng uy tín trong lĩnh
+                                vực cung cấp các mặt hàng về hoạt động du lịch, cắm trại và dã
+                                ngoại ngoài trời.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-auto">
+                    <div class="position-relative col-xs-1 mx-auto">
+                        <input class="form-control border-0 w-100 py-3 px-4 rounded-pill box-shadow shadow"
+                               type="text"
+                               placeholder="Your Email" />
+                        <button type="submit"
+                                class="btn btn-primary border-0 border-secondary py-3 px-4 position-absolute rounded-pill text-white"
+                                style="top: 0; right: 0">
+                            Subscribe Now
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-auto">
+                    <div class="d-flex justify-content-end pt-3">
+                        <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle twitter"
+                           href="">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle github"
+                           href="">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle facebook"
+                           href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle linkedin"
+                           href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle youtube"
+                           href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row rounded-3 mt-3">
+                <div class="row text-center text-white-50">
+                    <div class="col">
+                        <h3>Chính sách hỗ trợ</h3>
+                    </div>
+                    <div class="col">
+                        <h3>Những thông tin cần thiết</h3>
+                    </div>
+                    <div class="col">
+                        <h3>Liên Hệ</h3>
+                    </div>
+                </div>
+                <div class="row text-white">
+                    <div class="col">
+                        <ul>
+                            <li class="list-unstyled my-3">
+                                <a href="#" class="text-decoration-none">Cách thức mua hàng</a>
+                            </li>
+                            <li class="list-unstyled my-3">
+                                <a href="#" class="text-decoration-none">Phương thức thanh toán</a>
+                            </li>
+                            <li class="list-unstyled my-3">
+                                <a href="#" class="text-decoration-none">Chính sách vận chuyển</a>
+                            </li>
+                            <li class="list-unstyled my-3">
+                                <a href="#" class="text-decoration-none">Quy định đổi giá</a>
+                            </li>
+                            <li class="list-unstyled my-3">
+                                <a href="#" class="text-decoration-none">Bảo mật thông tin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li class="list-unstyled my-3">
+                                <a href="#" class="text-decoration-none">Tuyển dụng</a>
+                            </li>
+                            <li class="list-unstyled my-3">
+                                <a href="#" class="text-decoration-none">Hướng dẫn đăng kí, đăng nhập và tài khoản</a>
+                            </li>
+                            <li class="list-unstyled my-3">
+                                <a href="#" class="text-decoration-none">Điều kiện và điều khoản</a>
+                            </li>
+                            <li class="list-unstyled my-3">
+                                <a href="#" class="text-decoration-none">Bảo mật thông tin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li class="list-unstyled my-3">
+                                Địa chỉ: Công viên Phần mềm Quang Trung, Tòa nhà SaigonTech, Lô
+                                14 Đường Số 5, Tân Chánh Hiệp, Quận 12, Hồ Chí Minh 700000, Việt
+                                Nam
+                            </li>
+                            <li class="list-unstyled my-3">SĐT: 090909090</li>
+                            <li class="list-unstyled my-3">Email: saigontech.edu.vn</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        const inputNumber = document.querySelector(".input-group input");
+
+        const addValue = () => {
+            const currentValue = Number(inputNumber.value);
+            const maxValue = Number(inputNumber.max);
+            if (currentValue < maxValue) {
+                inputNumber.value = Number(inputNumber.value) + 1;
+            }
+        };
+        const subtractValue = () => {
+            const currentValue = Number(inputNumber.value);
+            const minValue = Number(inputNumber.min);
+            if (currentValue > minValue) {
+                inputNumber.value = Number(inputNumber.value) - 1;
+            }
+        };
+    </script>
+</body>
+</html>

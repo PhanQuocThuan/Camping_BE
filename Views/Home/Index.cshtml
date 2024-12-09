@@ -1,0 +1,227 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item">
+            <a asp-controller="" asp-action=""><img src="~/img/sakura-duong-2.jpg" class="d-block w-100" alt="img"></a>
+            <div class="carousel-caption d-none d-md-block text-black">
+                <h1>Du lịch</h1>
+                <h4>Sản phẩm du lịch</h4>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <a asp-controller="" asp-action=""><img src="~/img/camping_2.jpg" class="d-block w-100" alt="img"></a>
+            <div class="carousel-caption d-none d-md-block text-black">
+                <h1>Cắm trại</h1>
+                <h4>Sản phẩm cắm trại</h4>
+            </div>
+        </div>
+        <div class="carousel-item active">
+            <a asp-controller="" asp-action=""><img src="~/img/dap-xe-2.jpg" class="d-block w-100" alt="img"></a>
+            <div class="carousel-caption d-none d-md-block text-black">
+                <h1>Hoạt động ngoài trời</h1>
+                <h4>Sản phẩm hoạt động ngoài trời</h4>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="container my-5">
+    <div class="row d-flex justify-content-between">
+        <div class="col">
+            <div class="card-service">
+                <div class="content-service">
+                    <p class="heading">
+                        <i class="fs-1 fa-solid fa-car-side"></i>
+                    </p>
+                    <p class="para fs-3">
+                        Giao Hàng miễn phí
+                    </p>
+                    <p class="para para-sm">
+                        Miễn phí với đơn hàng từ 500.000đ
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card-service">
+                <div class="content-service">
+                    <p class="heading">
+                        <i class="fs-1 fa-solid fa-location-dot"></i>
+                    </p>
+                    <p class="para fs-3">
+                        Hỗ trợ tìm vị trí đẹp
+                    </p>
+                    <p class="para para-sm">
+                        Giúp các bạn tìm được nơi đẹp để cắm trại hoặc du lịch
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card-service">
+                <div class="content-service">
+                    <p class="heading">
+                        <i class="fs-1 fa-solid fa-right-left"></i>
+                    </p>
+                    <p class="para fs-3">
+                        Hoàn trả sản phẩm
+                    </p>
+                    <p class="para para-sm">
+                        Hoàn trả tiền lại nếu sản phẩm không vừa ý
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card-service">
+                <div class="content-service">
+                    <p class="heading">
+                        <i class="fs-1 fa-solid fa-phone"></i>
+                    </p>
+                    <p class="para fs-3">
+                        Hỗ trợ 24/7
+                    </p>
+                    <p class="para para-sm">
+                        Hỗ trợ mọi lúc
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card-service">
+                <div class="content-service">
+                    <p class="heading">
+                        <i class="fa-solid fa-user-shield"></i>
+                    </p>
+                    <p class="para fs-3">
+                        Cam kết thanh toán
+                    </p>
+                    <p class="para para-sm">
+                        100% cam kết thanh toán an toàn
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card-service">
+                <div class="content-service">
+                    <p class="heading">
+                        <i class="fa-solid fa-campground"></i>
+                    </p>
+                    <p class="para fs-3">
+                        Cho thuê 
+                    </p>
+                    <p class="para para-sm">
+                        Cho thuê liều cắm trại
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid fruite py-5">
+    <div class="container py-5">
+        <div class="tab-class text-center">
+            <div class="row g-4">
+                <div class="col-lg-4 text-start">
+                    <h1>Các sản phẩm của chúng tôi</h1>
+                </div>
+                <div class="col-lg-8 text-end">
+                    <ul class="nav nav-pills d-inline-flex text-center text-decoration-none mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex m-2 py-2 bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-0">
+                                <span class="text-dark" style="width: 130px;">Toàn bộ</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex py-2 m-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-1">
+                                <span class="text-dark" style="width: 130px;">Du lịch</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex py-2 m-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
+                                <span class="text-dark" style="width: 130px;">Cắm trại</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex py-2 m-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-3">
+                                <span class="text-dark" style="width: 130px;">Ngoài trời</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div id="tab-0" class="tab-pane fade show p-0 active">
+                    <div class="row g-4">
+                        <div class="col-lg-12">
+                            <div class="row g-4">
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="rounded position-relative fruite-item">
+                                        <div class="fruite-img">
+                                            <img src="~/img/MADFOX.jpg" class="img-fluid w-100 h-100 rounded-top" alt="">
+                                        </div>
+                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Name</div>
+                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                            <h4>Name</h4>
+                                            <p>Intro</p>
+                                            <div class="d-flex justify-content-between flex-lg-wrap">
+                                                <p class="text-dark fs-5 fw-bold mb-0">$Price / Unit</p>
+                                                <button>
+                                                    <div class="svg-wrapper-1">
+                                                        <div class="svg-wrapper">
+                                                            <i class="fa-solid fa-cart-shopping"></i>
+                                                        </div>
+                                                    </div>
+                                                    <span>Send</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div id="tab-1" class="tab-pane fade">
+                        <div class="row g-4">
+                            <div class="col-lg-12">
+                                <div class="row g-4">
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="~/img/Naturehikepng.png" class="img-fluid w-100 h-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Name</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Name</h4>
+                                                    <p>Intro</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">Price / Unit</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
