@@ -6,8 +6,8 @@
 		{
 			var builder = WebApplication.CreateBuilder(args);
 
-			//builder.Services.AddDbContext<CampingContext>(options =>
-			//options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+			builder.Services.AddDbContext<CampingContext>(options =>
+			options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 			// Add services to the container.
 			builder.Services.AddControllersWithViews();
 
