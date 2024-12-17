@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebCamping.Models
@@ -9,9 +10,12 @@ namespace WebCamping.Models
         [Key]
         public int USE_ID { get; set; }
         public required string Password { get; set; }
+        [DisplayName("UserName")]
         public required string UserName { get; set; }
-        public required string LastNane { get; set; }
-        public required string FirstName { get; set; }
+        [DisplayName("Last Name")]
+        public string? LastName { get; set; }
+        [DisplayName("First Name")]
+        public string? FirstName { get; set; }
         public bool Gender { get; set; }
         public string? Phone { get; set; }
         public required string Email { get; set; }

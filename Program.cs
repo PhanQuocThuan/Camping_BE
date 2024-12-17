@@ -1,4 +1,8 @@
-﻿namespace WebCamping
+﻿using Microsoft.EntityFrameworkCore;
+using WebCamping.Models;
+
+
+namespace WebCamping
 {
 	public class Program
 	{

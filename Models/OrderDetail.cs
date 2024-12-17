@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebCamping.Models
@@ -12,6 +13,7 @@ namespace WebCamping.Models
         public required int ORD_ID { get; set; }
         public required int Quantity { get; set; }
         public required decimal Price { get; set; }
+        [DisplayName("Discount Price")]
         public decimal DiscountPrice { get; set; }
 
         [ForeignKey("ORD_ID")]

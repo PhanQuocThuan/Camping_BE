@@ -1,10 +1,16 @@
-﻿namespace WebCamping.Models
+﻿using System.ComponentModel;
+
+namespace WebCamping.Models
 {
     public class BaseModel
     {
-        public DateTime CreateDate { get; set; } = DateTime.Now;
-        public string? CreateBy { get; set; }
-        public DateTime UpdateDate { get; set; } = DateTime.Now;
-        public string? UpdateBy { get; set; }
+        [DisplayName("Created Date")]
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
+        [DisplayName("Created By")]
+        public string? CreatedBy { get; set; }
+        [DisplayName("Updated Date")]
+        public DateTime UpdatedDate { get; set; } = DateTime.Now;
+        [DisplayName("Updated By")]
+        public string? UpdatedBy { get; set; }
     }
 }

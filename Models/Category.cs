@@ -11,6 +11,7 @@ namespace WebCamping.Models
         [Key]
         public int CAT_ID { get; set; }
         public required string Name { get; set; }
+        [DisplayName("Display Order")]
         public int DisplayOrder { get; set; }
         public virtual ICollection<Product>? Products { get; set; }
     }

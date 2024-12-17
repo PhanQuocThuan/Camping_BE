@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -11,118 +12,134 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white">
-        <div class="container-fluid justify-content-start">
-            <div class="col-1">
-                <a asp-controller="home" asp-action="index" class="offset-1">
-                    <img src="~/img/logo.jpg" class="img-fluid w-100 h-100" alt="Logo" />
-                </a>
-            </div>
-            <form class="form w-25 h-25 offset-1">
-                <button class="mb-1">
-                    <i class="fas fa-search"></i>
-                </button>
-                <input class="input"
-                       placeholder="Search..."
-                       required=""
-                       type="text" />
-            </form>
-            <div class="d-flex align-items-center offset-3 me-3">
-                <a href="#" class="text-black text-decoration-none">Đăng nhập</a>
-            </div>
-            <div class="col fw-light">
-                <a asp-controller="cart" asp-action="index"
-                   class="text-decoration-none text-black-50 d-flex align-items-center">
-                    Giỏ hàng/ 1000000đ
-                    <i class="fa-solid fa-cart-shopping fa-2x ms-2 position-relative">
-                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-white bg-danger">3</span>
-                    </i>
-                </a>
-            </div>
-        </div>
-    </nav>
-    <marquee class="bg-primary text-white" direction="left" scrollamount="15">
-        <strong>Địa chỉ</strong>: Công viên Phần mềm Quang Trung, Tòa nhà SaigonTech, Lô
-        14 Đường Số 5, Tân Chánh Hiệp, Quận 12, Hồ Chí Minh 700000, Việt
-        Nam, <strong>SĐT</strong>: 090909090, <strong>Email</strong>: saigontech.edu.vn
-    </marquee>
-    <ul class="list bg-primary d-flex justify-content-center fs-4">
-        <li class="nav-item">
-            <a asp-controller="home" asp-action="index" class="link">Trang Chủ</a>
-        </li>
-        <li class="nav-item dropdown">
-            <div class="menu">
-                <div class="item">
-                    <a href="#" class="link fs-4">
-                        <span> Du lịch </span>
-                        <i class="fa-solid fa-chevron-down"></i>
+    <div class="container-header">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white">
+            <div class="container-fluid justify-content-start">
+                <div class="col-1">
+                    <a asp-controller="home" asp-action="index" class="offset-1">
+                        <img src="~/img/logo.jpg" class="img-fluid w-100 h-100" alt="Logo" />
                     </a>
-                    <div class="submenu text-primary">
-                        <div class="submenu-item">
-                            <a href="#" class="submenu-link">Trang Phục</a>
+                </div>
+                <form class="form w-25 h-25 offset-1">
+                    <button class="mb-1">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <input class="input"
+                           placeholder="Search..."
+                           required=""
+                           type="text" />
+                </form>
+                <div class="d-flex align-items-center offset-3 me-3">
+                    <a href="#" class="text-black text-decoration-none">Đăng nhập</a>
+                </div>
+                <div class="col fw-light">
+                    <a asp-controller="cart" asp-action="index"
+                       class="text-decoration-none text-black-50 d-flex align-items-center">
+                        Giỏ hàng/ 1000000đ
+                        <i class="fa-solid fa-cart-shopping fa-2x ms-2 position-relative">
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-white bg-danger">3</span>
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <marquee class="text-black" direction="left" scrollamount="15">
+            <strong>Địa chỉ</strong>: Công viên Phần mềm Quang Trung, Tòa nhà SaigonTech, Lô
+            14 Đường Số 5, Tân Chánh Hiệp, Quận 12, Hồ Chí Minh 700000, Việt
+            Nam, <strong>SĐT</strong>: 090909090, <strong>Email</strong>: saigontech.edu.vn
+        </marquee>
+        <ul class="list text-black d-flex justify-content-center fs-4">
+            <li class="nav-item dropdown">
+                <div class="menu">
+                    <div class="item">
+                        <a asp-controller="home" asp-action="index" class="link fs-4">Trang Chủ</a>
+                        <div class="submenu text-black">
                         </div>
-                        <div class="submenu-item">
-                            <a href="#" class="submenu-link">Hành Lý</a>
-                        </div>
-                        <div class="submenu-item">
-                            <a href="#" class="submenu-link">Hành Trang</a>
-                        </div>
-                        <div class="submenu-item">
-                            <a href="#" class="submenu-link">Phụ Kiện</a>
+                    </div>
+                    
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <div class="menu">
+                    <div class="item">
+                        <a href="#" class="link fs-4">
+                            <span> Du lịch </span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <div class="submenu text-black">
+                            <div class="submenu-item">
+                                <a href="#" class="submenu-link">Trang Phục</a>
+                            </div>
+                            <div class="submenu-item">
+                                <a href="#" class="submenu-link">Hành Lý</a>
+                            </div>
+                            <div class="submenu-item">
+                                <a href="#" class="submenu-link">Hành Trang</a>
+                            </div>
+                            <div class="submenu-item">
+                                <a href="#" class="submenu-link">Phụ Kiện</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </li>
-        <li class="nav-item dropdown">
-            <div class="menu">
-                <div class="item">
-                    <a href="#" class="link fs-4">
-                        <span> Cắm trại - Camping </span>
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </a>
-                    <div class="submenu text-primary">
-                        <div class="submenu-item">
-                            <a asp-controller="Camp" asp-action="index" class="submenu-link">Liều Trại</a>
-                        </div>
-                        <div class="submenu-item">
-                            <a asp-controller="Camp" asp-action="Cook" class="submenu-link">Dụng cụ nấu ă</a>
-                        </div>
-                        <div class="submenu-item">
-                            <a asp-controller="Cart" asp-action="checkout" class="submenu-link">Bàn ghế Dã Ngoại</a>
-                        </div>
-                        <div class="submenu-item">
-                            <a asp-controller="Cart" asp-action="checkout" class="submenu-link">Phụ Kiện Cắm Trại</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="nav-item dropdown justify-content-center">
-            <div class="menu">
-                <div class="item">
-                    <a href="#" class="link fs-4">
-                        <span> Hoạt động ngoài trời </span>
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </a>
-                    <div class="submenu text-primary">
-                        <div class="submenu-item">
-                            <a href="#" class="submenu-link">Thể thao dưới nước </a>
-                        </div>
-                        <div class="submenu-item">
-                            <a href="#" class="submenu-link">Đồ chạy bộ</a>
-                        </div>
-                        <div class="submenu-item">
-                            <a href="#" class="submenu-link">Phụ kiện xe đạp</a>
+            </li>
+            <li class="nav-item dropdown">
+                <div class="menu">
+                    <div class="item">
+                        <a href="#" class="link fs-4">
+                            <span> Cắm trại - Camping </span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <div class="submenu text-black">
+                            <div class="submenu-item">
+                                <a asp-controller="Camp" asp-action="index" class="submenu-link">Liều Trại</a>
+                            </div>
+                            <div class="submenu-item">
+                                <a asp-controller="Camp" asp-action="Cook" class="submenu-link">Dụng cụ nấu ă</a>
+                            </div>
+                            <div class="submenu-item">
+                                <a asp-controller="Cart" asp-action="checkout" class="submenu-link">Bàn ghế Dã Ngoại</a>
+                            </div>
+                            <div class="submenu-item">
+                                <a asp-controller="Cart" asp-action="checkout" class="submenu-link">Phụ Kiện Cắm Trại</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </li>
+            <li class="nav-item dropdown">
+                <div class="menu">
+                    <div class="item">
+                        <a href="#" class="link fs-4">
+                            <span> Hoạt động ngoài trời </span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <div class="submenu text-black">
+                            <div class="submenu-item">
+                                <a href="#" class="submenu-link">Thể thao dưới nước </a>
+                            </div>
+                            <div class="submenu-item">
+                                <a href="#" class="submenu-link">Đồ chạy bộ</a>
+                            </div>
+                            <div class="submenu-item">
+                                <a href="#" class="submenu-link">Phụ kiện xe đạp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        </li>
-        <li class="nav-item"><a asp-controller="contact" asp-action="index" class="link">Liên Hệ</a></li>
-    </ul>
-
+            </li>
+            <li class="nav-item dropdown">
+                <div class="menu">
+                    <div class="item">
+                        <a asp-controller="contact" asp-action="index" class="link fs-4">Liên Hệ</a>
+                        <div class="submenu text-black">
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
     <div class="text-center">
             @RenderBody()
     </div>

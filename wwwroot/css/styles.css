@@ -112,7 +112,6 @@ input:not(:placeholder-shown) ~ .reset {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 
 .link {
@@ -281,6 +280,8 @@ a.btn i {
 .nav-item {
   margin-top: 5px;
   margin-bottom: 5px;
+  margin-right:0;
+  margin-left: 0;
 }
 
 .nav-item .link:hover {
@@ -504,19 +505,19 @@ button:active {
     transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
     }
 
-.menu .link::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #0a3cff;
-    z-index: -1;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.48s cubic-bezier(0.23, 1, 0.32, 1);
-}
+    .menu .link::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #9aaf6e;
+        z-index: -1;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+    }
 
 .menu .link svg {
     width: 14px;
@@ -535,11 +536,10 @@ button:active {
     align-items: center;
     position: absolute;
     top: 100%;
-    border-radius: 0 0 16px 16px;
+    /*border-radius: 0 0 16px 16px;*/
     left: 0;
     width: 100%;
     overflow: hidden;
-    border: 1px solid #cccccc;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-12px);
@@ -554,13 +554,10 @@ button:active {
     visibility: visible;
     transform: translateY(0);
     pointer-events: auto;
-    border-top: transparent;
-    border-color: #0a3cff;
 }
 
 .menu .item:hover .link {
     color: #ffffff;
-    border-radius: 16px 16px 0 0;
 }
 
 .menu .item:hover .link::after {
@@ -599,7 +596,7 @@ button:active {
     transform: scaleX(0);
     width: 100%;
     height: 100%;
-    background-color: #0a3cff;
+    background-color: #9aaf6e;
     z-index: -1;
     transform-origin: left;
     transition: transform 0.48s cubic-bezier(0.23, 1, 0.32, 1);
@@ -921,8 +918,9 @@ button:active {
             .fruite .fruite-item .fruite-img img:hover {
                 transform: scale(1.3);
             }
+
 /* From Uiverse.io by adamgiebl */
-button {
+.button-cart {
     font-family: inherit;
     font-size: 20px;
     background: royalblue;
@@ -938,31 +936,31 @@ button {
     cursor: pointer;
 }
 
-    button span {
+    .button-cart span {
         display: block;
         margin-left: 0.3em;
         transition: all 0.3s ease-in-out;
     }
 
-    button svg {
+    .button-cart svg {
         display: block;
         transform-origin: center center;
         transition: transform 0.3s ease-in-out;
     }
 
-    button:hover .svg-wrapper {
+    .button-cart:hover .svg-wrapper {
         animation: fly-1 0.6s ease-in-out infinite alternate;
     }
-    button:hover span {
+    .button-cart:hover span {
         animation: fly-1 0.6s ease-in-out infinite alternate;
     }
 
-    button:hover svg {
+    .button-cart:hover svg {
         transform: translateX(1.2em) rotate(45deg) scale(1.1);
     }
 
 
-    button:active {
+    .button-cart:active {
         transform: scale(0.95);
     }
 
@@ -975,3 +973,33 @@ button {
         transform: translateY(-0.1em);
     }
 }
+.service .service-item .service-content {
+    position: relative;
+    width: 250px;
+    height: 130px;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container-header {
+    background-image: url('/img/nav2.jpg'); /* Đường dẫn tới ảnh */
+    background-size: cover; /* Để ảnh phủ toàn bộ vùng */
+    background-position: center; /* Căn giữa ảnh */
+    height: 25px; /* Chiều cao container-header */
+    width: 100%; /* Độ rộng toàn màn hình */
+    position: fixed; /* Giữ cố định */
+    top: 0; /* Căn trên cùng của trang */
+    left: 0; /* Căn bên trái */
+    z-index: 100; /* Đảm bảo header ở trên các phần tử khác */
+}
+
+.bg-black1 {
+    background: linear-gradient(90deg, white, #87CEFA); /* Nền trắng - xanh da trời */
+    color: black; /* Chuyển toàn bộ nội dung thành màu đen */
+    padding: 20px; /* Khoảng cách bên trong */
+    border-radius: 8px; /* Bo góc nhẹ */
+}
+
+    .bg-black1 * {
+        color: black !important; /* Đảm bảo tất cả nội dung con đều chuyển sang màu đen */
+    }

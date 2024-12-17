@@ -1,4 +1,12 @@
-﻿<!DOCTYPE html>
+﻿@using WebCamping.Utils
+@{
+    var userInfo = Context.Session.Get<AdminUser>("userInfo");
+    if (userInfo == null)
+    {
+        Context.Response.Redirect("/Admin/User/Login");
+    }
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -7,7 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/admin/css/admin.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Camping.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/admin/css/styles.css" asp-append-version="true" />
+    @await RenderSectionAsync("Header", required: false)
 </head>
 <body class="layout-fixed sidebar-expand-lg sidebar-mini sidebar-collapse bg-body-tertiary">
     <div class="app-wrapper">
@@ -23,7 +32,7 @@
                         </a>
                     </li>
                     <li class="nav-item d-none d-md-block">
-                        <a href="#" class="nav-link">Home</a>
+                        <a asp-controller="Home" asp-action="index" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item d-none d-md-block">
                         <a href="#" class="nav-link">Contact</a>
@@ -120,6 +129,23 @@
                                 </p>
                             </a>
                         </li>
+                        <li class="nav-item menu-open">
+                            <a asp-action="index" asp-controller="Brand" class="nav-link active">
+                                <i class="fa-solid fa-copyright"></i>
+                                <p>
+                                    Brands
+                                </p>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item menu-open">
+                            <a asp-action="index" asp-controller="Category" class="nav-link active">
+                                <i class="fa-solid fa-box"></i>
+                                <p>
+                                    Category
+                                </p>
+                            </a>
+                        </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="fa-regular fa-user"></i>
@@ -146,43 +172,28 @@
                                 <i class="fa-solid fa-stamp"></i>
                                 <p>
                                     Layout
-                                    <i class="fa-solid fa-chevron-down"></i>
                                 </p>
                             </a>
-                            <!-- <ul class="nav nav-treeview">
-                              <li class="nav-item">
-                                <a href="" class="nav-link">
-                                  <i class="nav-icon bi bi-circle"></i>
-                                  <p>General Elements</p>
-                                </a>
-                              </li>
-                            </ul> -->
-                        </li>
+                        </li>   
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="fa-solid fa-pen-to-square"></i>
+                            <a asp-action="index" asp-controller="Product" class="nav-link">
+                                <i class="fa-solid fa-campground"></i>
                                 <p>
                                     Products
                                     <i class="fa-solid fa-chevron-down"></i>
                                 </p>
                             </a>
-                            <!-- <ul class="nav nav-treeview">
-                              <li class="nav-item">
-                                <a href="../tables/simple.html" class="nav-link">
-                                  <i class="nav-icon bi bi-circle"></i>
-                                  <p>Simple Tables</p>
-                                </a>
-                              </li>
-                            </ul> -->
                         </li>
                     </ul>
                 </nav>
             </div>
         </aside>
-        @RenderBody()
+        <div class="container">
+            @RenderBody()
+        </div>
         <footer class="app-footer d-flex justify-content-between">
             <strong> Copyright &copy; 2024&nbsp; HAT </strong>
-            <button>Logout</button>
+            <button class="button">Logout</button>
         </footer>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
