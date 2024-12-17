@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IStQ59Z7AWDOO2Ajrd+Y3ueeGl/KlZyJgJjdZFVgSlw=",
+  "Hash": "KT5IIA22br0V2xPxf+LJ5APW5DHaM13GANei9Nsp/N4=",
   "Source": "WebCamping",
   "BasePath": "_content/WebCamping",
   "Mode": "Default",
@@ -5850,6 +5850,25 @@
       "OriginalItemSpec": "wwwroot\\img\\glamping-phu-yen-min-1400x800.jpg"
     },
     {
+      "Identity": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\istockphoto-1340571998-612x612.jpg",
+      "SourceId": "WebCamping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\test\\BackEnd_WebCamping\\wwwroot\\",
+      "BasePath": "_content/WebCamping",
+      "RelativePath": "img/istockphoto-1340571998-612x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\istockphoto-1340571998-612x612.jpg"
+    },
+    {
       "Identity": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\logo.jpg",
       "SourceId": "WebCamping",
       "SourceType": "Discovered",
@@ -5964,6 +5983,25 @@
       "OriginalItemSpec": "wwwroot\\img\\nav2.jpg"
     },
     {
+      "Identity": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\olive-camping.jpg",
+      "SourceId": "WebCamping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\test\\BackEnd_WebCamping\\wwwroot\\",
+      "BasePath": "_content/WebCamping",
+      "RelativePath": "img/olive-camping.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\olive-camping.jpg"
+    },
+    {
       "Identity": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\Phusi-japan.jpg",
       "SourceId": "WebCamping",
       "SourceType": "Discovered",
@@ -6019,6 +6057,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\slider.jpg"
+    },
+    {
+      "Identity": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\Sun-World-Ba-Na-Hills-in-Da-Nang--ce8d864c-da07-4dc0-91db-f320fa9fbbeb.webp",
+      "SourceId": "WebCamping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\test\\BackEnd_WebCamping\\wwwroot\\",
+      "BasePath": "_content/WebCamping",
+      "RelativePath": "img/Sun-World-Ba-Na-Hills-in-Da-Nang--ce8d864c-da07-4dc0-91db-f320fa9fbbeb.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Sun-World-Ba-Na-Hills-in-Da-Nang--ce8d864c-da07-4dc0-91db-f320fa9fbbeb.webp"
     },
     {
       "Identity": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\tim-hieu-dinh-nghia-du-lich-va-cac-loai-hinh-du-lich.jpg",
