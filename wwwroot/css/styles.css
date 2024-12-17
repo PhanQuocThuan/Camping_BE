@@ -1003,3 +1003,7 @@ button:active {
     .bg-black1 * {
         color: black !important; /* Đảm bảo tất cả nội dung con đều chuyển sang màu đen */
     }
+.banner-btn:hover {
+    background-color:#2aff00;
+    color: white;
+}

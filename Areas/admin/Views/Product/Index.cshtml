@@ -1,5 +1,4 @@
 ﻿@model IEnumerable<WebCamping.Models.Product>
-
 @{
     ViewData["Title"] = "Index";
 }
@@ -53,7 +52,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                    <img src="~/data/products/@item.Avatar" alt="avatar" width="100px" />
+                <img src="~/data/products/@item.Avatar" alt="avatar" width="100px" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)

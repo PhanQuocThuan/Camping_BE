@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KT5IIA22br0V2xPxf+LJ5APW5DHaM13GANei9Nsp/N4=",
+  "Hash": "nKEyTb2DUYy2oWlf26Zht5T78UC09xdM51jqaCiHl90=",
   "Source": "WebCamping",
   "BasePath": "_content/WebCamping",
   "Mode": "Default",
@@ -5867,6 +5867,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\istockphoto-1340571998-612x612.jpg"
+    },
+    {
+      "Identity": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\leu-tu-bung-gazelle-gl1668-background.jpg",
+      "SourceId": "WebCamping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\test\\BackEnd_WebCamping\\wwwroot\\",
+      "BasePath": "_content/WebCamping",
+      "RelativePath": "img/leu-tu-bung-gazelle-gl1668-background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\leu-tu-bung-gazelle-gl1668-background.jpg"
     },
     {
       "Identity": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\logo.jpg",

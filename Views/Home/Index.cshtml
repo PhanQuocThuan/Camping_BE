@@ -138,25 +138,31 @@
 </div>
 @* service end*@
 @* product start*@
+@{
+    var brands = ViewData["Brands"] as List<Brand> ?? [];
+}
 <div class="container-fluid fruite py-5">
 		<div class="container py-5">
 			<div class="tab-class text-center">
 				<div class="row g-4">
 					<div class="col-lg-4 text-start">
-						<h1>Our Organic Products</h1>
+						<h1>Thương Hiệu</h1>
 					</div>
 					<div class="col-lg-8 text-end">
 						<ul class="nav nav-pills d-inline-flex text-center mb-5">
 							<li class="nav-item">
-								<a class="d-flex m-2 py-2 bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-0">
+								<a class="d-flex m-2 py-2 bg-light rounded-pill active text-decoration-none" data-bs-toggle="pill" href="#tab-0">
 									<span class="text-dark" style="width: 130px;">All Products</span>
 								</a>
 							</li>
+                            @foreach(var brand in brands)
+                            {
 								<li class="nav-item">
-									<a class="d-flex py-2 m-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-1">
-										<span class="text-dark" style="width: 130px;">Name</span>
+                                        <a class="d-flex py-2 m-2 bg-light rounded-pill text-decoration-none" data-bs-toggle="pill" href="#tab-@brand.BRA_ID">
+										<span class="text-dark" style="width: 130px;">@brand.Name</span>
 									</a>
 								</li>
+                            }
 						</ul>
 					</div>
 				</div>
@@ -165,65 +171,74 @@
 						<div class="row g-4">
 							<div class="col-lg-12">
 								<div class="row g-4">
+                                    @foreach(var product in ViewData["HostProducts"] as List<Product> ?? [])
+                                    {
 										<div class="col-md-6 col-lg-4 col-xl-3">
 											<div class="rounded position-relative fruite-item">
 												<div class="fruite-img">
-													<img src="~/img/MADFOX.jpg" class="img-fluid w-100 rounded-top h-100 w-100" alt="">
+													<img src="~/data/products/@product.Avatar" class="img-fluid w-100 rounded-top h-100 w-100 border" alt="">
 												</div>
-												<div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Name</div>
-												<div class="p-4 border border-secondary border-top-0 rounded-bottom">
-													<h4><a asp-action="detail" asp-controller="product" asp-route-id="id">Name</a></h4>
-													<p>Intro</p>
+												<div class="text-black bg-success-subtle px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@product.Brand.Name</div>
+												<div class="p-4 border border-success-subtle border-top-0 rounded-bottom">
+													<h4><a asp-action="detail" asp-controller="product" asp-route-id="@product.PRO_ID" class="text-decoration-none text-success">@product.Name</a></h4>
+													<p>@product.Intro</p>
 													<div class="d-flex justify-content-between flex-lg-wrap">
-														<p class="text-dark fs-5 fw-bold mb-0">$Price / Unit</p>
-                                                <button class="button-cart">
-                                                    <div class="svg-wrapper-1">
-                                                        <div class="svg-wrapper">
-                                                            <i class="fa-solid fa-cart-shopping"></i>
+														<p class="text-dark fs-5 fw-bold mb-0">@product.Price vnd</p>
+                                                    <button class="button-cart">
+                                                        <div class="svg-wrapper-1">
+                                                            <div class="svg-wrapper">
+                                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <span>Send</span>
-                                                </button>
+                                                        <span>Giỏ hàng</span>
+                                                    </button>
 													</div>
 												</div>
 											</div>
 										</div>
+                                    }
 								</div>
 							</div>
 						</div>
 					</div>
-						<div id="tab-1" class="tab-pane fade">
-							<div class="row g-4">
-								<div class="col-lg-12">
-									<div class="row g-4">
-										<div class="col-md-6 col-lg-4 col-xl-3">
-											<div class="rounded position-relative fruite-item">
-												<div class="fruite-img">
-													<img src="~/img/Naturehikepng.png" class="img-fluid w-100 rounded-top w-100 h-100" alt="">
-												</div>
-												<div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Name</div>
-												<div class="p-4 border border-secondary border-top-0 rounded-bottom">
-														<h4><a asp-action="detail" asp-controller="product" asp-route-id="PRO_ID">Name</a></h4>
-													<p>Intro</p>
-													<div class="d-flex justify-content-between flex-lg-wrap">
-														<p class="text-dark fs-5 fw-bold mb-0">$Price / Unit</p>
-                                                <button class="button-cart">
-                                                    <div class="svg-wrapper-1">
-                                                        <div class="svg-wrapper">
-                                                            <i class="fa-solid fa-cart-shopping"></i>
-                                                        </div>
+                @foreach (var brand in brands)
+                {
+                    <div id="tab-@brand.BRA_ID" class="tab-pane fade">
+                        <div class="row g-4">
+                            <div class="col-lg-12">
+                                <div class="row g-4">
+                                    @foreach (var product in brand.Products ?? [])
+                                    {
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="~/data/products/@product.Avatar" class="img-fluid w-100 rounded-top h-100 w-100 border" alt="">
+                                                </div>
+                                                <div class="text-black bg-success-subtle px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@brand.Name</div>
+                                                <div class="p-4 border border-success-subtle border-top-0 rounded-bottom">
+                                                    <h4><a asp-action="detail" asp-controller="product" asp-route-id="@product.PRO_ID" class="text-decoration-none text-success">@product.Name</a></h4>
+                                                    <p>@product.Intro</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">@product.Price vnd</p>
+                                                        <button class="button-cart">
+                                                            <div class="svg-wrapper-1">
+                                                                <div class="svg-wrapper">
+                                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                                </div>
+                                                            </div>
+                                                            <span>Giỏ hàng</span>
+                                                        </button>
                                                     </div>
-                                                    <span>Send</span>
-                                                </button>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-				</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
 			</div>
 		</div>
 	</div>
@@ -234,10 +249,10 @@
         <div class="row g-4 justify-content-center">
             <div class="col-md-6 col-lg-4">
                 <a href="#" class="text-decoration-none">
-                    <div class="service-item bg-warning-subtle rounded-5 border border-primary">
+                    <div class="service-item bg-success-subtle rounded-5 border border-success">
                         <img src="~/img/olive-camping.jpg" class="img-fluid rounded-top-5 w-100 h-100" alt="">
                         <div class="px-4 rounded-bottom">
-                            <div class="service-content bg-warning-subtle border border-primary text-center p-4 rounded-5">
+                            <div class="service-content bg-success-subtle border border-success text-center p-4 rounded-5">
                                 <h5 class="text-black">Cắm trại</h5>
                                 <h3 class="mb-0">Discount 0%</h3>
                             </div>
@@ -275,3 +290,31 @@
     </div>
 </div>
 @* service end*@
+@* banner start *@
+<div class="container-fluid banner bg-success-subtle my-5">
+    <div class="container py-5">
+        <div class="row g-4 align-items-center">
+            <div class="col-lg-6">
+                <div class="py-4">
+                    <h1 class="display-3 text-success-subtle">Title</h1>
+                    <p class="fw-normal display-3 text-dark mb-4">Cửa hàng của chúng tôi</p>
+                    <p class="mb-4 text-dark">Chúng tôi cam kết mang đến cho bạn những sản phẩm chất lượng, giá cả hợp lý và những sản phẩm phù hợp với nhu cầu của bạn</p>
+                    <a href="#" class="banner-btn btn border-2 border-white rounded-pill text-black py-3 px-5">BUY</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="position-relative">
+                    <img src="~/img/leu-tu-bung-gazelle-gl1668-background.jpg" class="img-fluid w-100 h-100 rounded bg-" style="mix-blend-mode: multiply;" alt="">
+                    <div class="d-flex align-items-center justify-content-center bg-white rounded-circle position-absolute" style="width: 5rem; height: 5rem; bottom: 0; left: 0;">
+                        <h1 style="font-size: 3rem;">1</h1>
+                        <div class="d-flex flex-column" >
+                            <span class="h2 mb-0" style="font-size: 1rem;">50,1$</span>
+                            <span class="h4 text-muted mb-0" style="font-size: 1rem;">chiếc</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@* banner end *@

@@ -61,36 +61,27 @@
             </li>
             <li class="nav-item dropdown">
                 <div class="menu">
+                    
                     <div class="item">
                         <a href="#" class="link fs-4">
-                            <span> Du lịch </span>
+                            <span> Thương Hiệu </span>
                             <i class="fa-solid fa-chevron-down"></i>
                         </a>
                         <div class="submenu text-black">
-                            <div class="submenu-item">
-                                <a href="#" class="submenu-link">Trang Phục</a>
-                            </div>
-                            <div class="submenu-item">
-                                <a href="#" class="submenu-link">Hành Lý</a>
-                            </div>
-                            <div class="submenu-item">
-                                <a href="#" class="submenu-link">Hành Trang</a>
-                            </div>
-                            <div class="submenu-item">
-                                <a href="#" class="submenu-link">Phụ Kiện</a>
-                            </div>
+                                <div class="submenu-item">
+                                    <a asp-action="index" asp-controller="brand" asp-route-id="" class="submenu-link">Name</a>
+                                </div>
                         </div>
-                    </div>
                 </div>
             </li>
             <li class="nav-item dropdown">
                 <div class="menu">
                     <div class="item">
                         <a href="#" class="link fs-4">
-                            <span> Cắm trại - Camping </span>
-                            <i class="fa-solid fa-chevron-down"></i>
+                            <span> Loại </span>
+                            @* <i class="fa-solid fa-chevron-down"></i> *@
                         </a>
-                        <div class="submenu text-black">
+                        @* <div class="submenu text-black">
                             <div class="submenu-item">
                                 <a asp-controller="Camp" asp-action="index" class="submenu-link">Liều Trại</a>
                             </div>
@@ -103,7 +94,7 @@
                             <div class="submenu-item">
                                 <a asp-controller="Cart" asp-action="checkout" class="submenu-link">Phụ Kiện Cắm Trại</a>
                             </div>
-                        </div>
+                        </div> *@
                     </div>
                 </div>
             </li>
@@ -111,10 +102,10 @@
                 <div class="menu">
                     <div class="item">
                         <a href="#" class="link fs-4">
-                            <span> Hoạt động ngoài trời </span>
-                            <i class="fa-solid fa-chevron-down"></i>
+                            <span> Địa điểm cắm trại </span>
+                            @* <i class="fa-solid fa-chevron-down"></i> *@
                         </a>
-                        <div class="submenu text-black">
+                        @* <div class="submenu text-black">
                             <div class="submenu-item">
                                 <a href="#" class="submenu-link">Thể thao dưới nước </a>
                             </div>
@@ -124,7 +115,7 @@
                             <div class="submenu-item">
                                 <a href="#" class="submenu-link">Phụ kiện xe đạp</a>
                             </div>
-                        </div>
+                        </div> *@
                     </div>
                 </div>
 
