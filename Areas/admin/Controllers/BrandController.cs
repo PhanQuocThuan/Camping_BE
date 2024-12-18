@@ -180,35 +180,36 @@ namespace WebCamping.Areas.Admin.Controllers
         }
 
         // GET: Admin/Brand/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
+        //public async Task<IActionResult> Delete(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            var brand = await _context.Brand
-                .FirstOrDefaultAsync(m => m.BRA_ID == id);
-            if (brand == null)
-            {
-                return NotFound();
-            }
+        //    var brand = await _context.Brand
+        //        .FirstOrDefaultAsync(m => m.BRA_ID == id);
+        //    if (brand == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return View(brand);
-        }
+        //    return View(brand); 
+        //}
 
         // POST: Admin/Brand/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var brand = await _context.Brand.FindAsync(id);
+            var brand = await _context.Brands.FindAsync(id);
             if (brand != null)
             {
-                _context.Brand.Remove(brand);
+                _context.Brands.Remove(brand);
+                await _context.SaveChangesAsync();
+                TempData["SuccessMessage"] = "Brand deleted successfully!";
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 

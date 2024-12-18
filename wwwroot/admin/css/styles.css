@@ -424,7 +424,7 @@ fieldset {
   font-weight: 900;
   color: #fff;
 }
-button {
+/*button {
   position: relative;
   overflow: hidden;
   outline: none;
@@ -435,7 +435,7 @@ button {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   font-family: "Inter", sans-serif;
-}
+}*/
 
 .default-btn {
   background-image: linear-gradient(
@@ -549,7 +549,7 @@ button:hover .hover-btn {
 .edit-button:hover::before {
     display: block;
     padding-right: 10px;
-    font-size: 13px;
+    font-size: 17px;
     opacity: 1;
     transform: translateY(0px);
     transition-duration: 0.3s;
@@ -609,7 +609,7 @@ button:hover .hover-btn {
 .detail-button:hover::before {
     display: block;
     padding-right: 10px;
-    font-size: 13px;
+    font-size: 17px;
     opacity: 1;
     transform: translateY(0px);
     transition-duration: 0.3s;
@@ -669,7 +669,66 @@ button:hover .hover-btn {
 .trash-button:hover::before {
     display: block;
     padding-right: 10px;
-    font-size: 13px;
+    font-size: 17px;
+    opacity: 1;
+    transform: translateY(0px);
+    transition-duration: 0.3s;
+}
+.back-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none !important;
+}
+
+.back-svgIcon {
+    width: 17px;
+    transition-duration: 0.3s;
+}
+
+
+.back-button:hover {
+    width: 120px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: #ccff00;
+    align-items: center;
+}
+
+    .back-button:hover .back-svgIcon {
+        width: 20px;
+        transition-duration: 0.3s;
+        transform: translateY(60%);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+.back-button::before {
+    display: none;
+    content: "Back";
+    color: white;
+    transition-duration: 0.3s;
+    font-size: 2px;
+}
+
+.back-button:hover::before {
+    display: block;
+    padding-right: 10px;
+    font-size: 17px;
     opacity: 1;
     transform: translateY(0px);
     transition-duration: 0.3s;
@@ -699,35 +758,8 @@ button:hover .hover-btn {
     .cssbuttons-io-button:active {
         box-shadow: 0 0.3em 1em -0.5em #14a73e98;
     }
-/* From Uiverse.io by Jedi-hongbin */
-.btn-back {
-    display: flex;
-    height: 3em;
-    width: 100px;
-    align-items: center;
-    justify-content: center;
-    background-color: #eeeeee4b;
-    border-radius: 3px;
-    letter-spacing: 1px;
-    transition: all 0.2s linear;
-    cursor: pointer;
-    border: none;
-    background: #fff;
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
-
-    .btn-back > svg {
-        margin-right: 5px;
-        margin-left: 5px;
-        font-size: 20px;
-        transition: all 0.4s ease-in;
-    }
-
-    .btn-back:hover > svg {
-        font-size: 1.2em;
-        transform: translateX(-5px);
-    }
-
-    .btn-back:hover {
-        box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
-        transform: translateY(-2px);
-    }

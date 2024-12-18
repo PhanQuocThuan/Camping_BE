@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nKEyTb2DUYy2oWlf26Zht5T78UC09xdM51jqaCiHl90=",
+  "Hash": "c2cXq1mNTvOJJjRYWWxocB3Ak6DYhMe4nN/E1tsgg/o=",
   "Source": "WebCamping",
   "BasePath": "_content/WebCamping",
   "Mode": "Default",
@@ -5641,6 +5641,25 @@
       "OriginalItemSpec": "wwwroot\\data\\products\\0e475348-df63-4b87-96f1-3f160a79a7ce.png"
     },
     {
+      "Identity": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\187ec0be-4973-41fb-a563-6bdce7c19cbd.jpg",
+      "SourceId": "WebCamping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\test\\BackEnd_WebCamping\\wwwroot\\",
+      "BasePath": "_content/WebCamping",
+      "RelativePath": "data/products/187ec0be-4973-41fb-a563-6bdce7c19cbd.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\products\\187ec0be-4973-41fb-a563-6bdce7c19cbd.jpg"
+    },
+    {
       "Identity": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\4530985f-ada3-4efd-b03e-03795c8ce5b5.png",
       "SourceId": "WebCamping",
       "SourceType": "Discovered",
@@ -5696,6 +5715,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\products\\86579db1-e931-41e6-928a-f88822bb27e2.png"
+    },
+    {
+      "Identity": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\8ce38662-590c-4abb-9dfb-272eb24e5b77.png",
+      "SourceId": "WebCamping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\test\\BackEnd_WebCamping\\wwwroot\\",
+      "BasePath": "_content/WebCamping",
+      "RelativePath": "data/products/8ce38662-590c-4abb-9dfb-272eb24e5b77.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\products\\8ce38662-590c-4abb-9dfb-272eb24e5b77.png"
     },
     {
       "Identity": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\a3d1e2bd-70e7-4ecf-9ef8-ba61f1cb391e.png",

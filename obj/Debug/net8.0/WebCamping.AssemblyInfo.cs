@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebCamping")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc3f244ecec1878f921d3a349c51fa204fae7520")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96895af7e5271199c1413ad2b791dda7e8aa8c43")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebCamping")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebCamping")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

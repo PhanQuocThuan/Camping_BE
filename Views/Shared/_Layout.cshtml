@@ -1,4 +1,8 @@
-﻿
+﻿@inject CampingContext _context
+@{
+    var brands = _context.Brands
+        .ToList();
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,9 +72,11 @@
                             <i class="fa-solid fa-chevron-down"></i>
                         </a>
                         <div class="submenu text-black">
+                            @foreach(var brand in brands){
                                 <div class="submenu-item">
-                                    <a asp-action="index" asp-controller="brand" asp-route-id="" class="submenu-link">Name</a>
+                                    <a asp-action="index" asp-controller="brand" asp-route-id="@brand.BRA_ID" class="submenu-link">@brand.Name</a>
                                 </div>
+                            }
                         </div>
                 </div>
             </li>
