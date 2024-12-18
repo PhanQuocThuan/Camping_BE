@@ -25,9 +25,22 @@ namespace WebCamping.Areas.Admin.Controllers
         }
 
         // GET: Admin/Brand
-        public async Task<IActionResult> Index()
+        [HttpGet]
+        public async Task<IActionResult> Index(string searchQuery)
         {
-            return View(await _context.Brands.ToListAsync());
+            if (string.IsNullOrEmpty(searchQuery))
+            {
+                var allBrands = await _context.Brands.ToListAsync();
+                return View(allBrands);
+            }
+                var brands = await _context.Brands
+                                   .FromSqlRaw(@"SELECT * FROM Brands 
+                                         WHERE Name LIKE {0} 
+                                         OR Phone LIKE {0} 
+                                         OR BRA_Address LIKE {0}", "%" + searchQuery + "%")
+                                   .ToListAsync();
+
+            return View(brands);
         }
 
         // GET: Admin/Brand/Details/5
@@ -160,7 +173,7 @@ namespace WebCamping.Areas.Admin.Controllers
                     }
                     brand.UpdatedDate = DateTime.Now;
                     brand.UpdatedBy = userName;
-                    _context.Update(request);
+                    _context.Update(brand);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)

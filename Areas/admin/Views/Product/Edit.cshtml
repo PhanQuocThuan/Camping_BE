@@ -3,14 +3,12 @@
 @{
     ViewData["Title"] = "Edit";
 }
-
-<h1>Edit</h1>
-
-<h4>Product</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
+    <h1>Product</h1>
+    <hr />
+    <div class="col-md-4 border border-2 rounded-2">
+        <h2 class="text-center">Edit Form</h2>
+        <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="PRO_ID" />
             <div class="form-group">
@@ -25,7 +23,10 @@
             </div>
             <div class="form-group">
                 <label asp-for="Avatar" class="control-label"></label>
-                <input asp-for="Avatar" class="form-control" />
+                <input asp-for="Avatar" class="form-control" type="file" accept="image/*"/>
+                <div class="w-100 mt-2">
+                    <img src="~/data/products/@Model.Avatar" id="imgPreview" class="img-fluid" style="width: 300px; height: 300px;" />
+                </div>
                 <span asp-validation-for="Avatar" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -45,7 +46,13 @@
             </div>
             <div class="form-group">
                 <label asp-for="Rate" class="control-label"></label>
-                <input asp-for="Rate" class="form-control" />
+                <select asp-for="Rate" class="form-select" >
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
                 <span asp-validation-for="Rate" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -58,15 +65,16 @@
                 <input asp-for="Intro" class="form-control" />
                 <span asp-validation-for="Intro" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            <div class="form-group d-flex align-items-center align-content-center text-center my-2">
+                <a asp-action="Index" class="text-decoration-none mx-3">
+                    <button type="button" class="back-button">
+                        <i class="fa-solid fa-arrow-left text-white back-svgIcon"></i>
+                    </button>
+                </a>
+                <input type="submit" value="Save" class="btn btn-success text-black bg-success-subtle rounded rounded-5" />
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Header {
@@ -128,12 +136,14 @@
 
                 reader.onloadend = function () {
                     preview.src = reader.result;
+                    preview.style.display = "block";
                 }
 
                 if (file) {
                     reader.readAsDataURL(file);
                 } else {
                     preview.src = '';
+                    preview.style.display = "none";
                 }
             };
         }

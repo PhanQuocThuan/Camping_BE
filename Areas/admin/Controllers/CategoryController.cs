@@ -21,9 +21,19 @@ namespace WebCamping.Areas.admin.Controllers
         }
 
         // GET: admin/Category
-        public async Task<IActionResult> Index()
+        [HttpGet]
+        public async Task<IActionResult> Index(string searchQuery)
         {
-            return View(await _context.Categories.ToListAsync());
+            if (string.IsNullOrEmpty(searchQuery))
+            {
+                var allCategories = await _context.Categories.ToListAsync();
+                return View(allCategories);
+            }
+            var categories = await _context.Categories
+                                   .FromSqlRaw("SELECT * FROM Categories WHERE Name LIKE {0}", "%" + searchQuery + "%")
+                                   .ToListAsync();
+
+            return View(categories);
         }
 
         // GET: admin/Category/Details/5

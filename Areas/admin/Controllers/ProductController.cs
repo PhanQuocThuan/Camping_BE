@@ -27,10 +27,20 @@ namespace WebCamping.Areas.Admin.Controllers
         }
 
         // GET: Admin/Product
-        public async Task<IActionResult> Index()
+        [HttpGet]
+        public async Task<IActionResult> Index(string searchQuery)
         {
-            var campingContext = _context.Products.Include(p => p.Brand).Include(p => p.Category);
-            return View(await campingContext.ToListAsync());
+            if (string.IsNullOrEmpty(searchQuery))
+            {
+                var allProducts = await _context.Products.ToListAsync();
+                return View(allProducts);
+            }
+            var products = await _context.Products
+                               .FromSqlRaw(@"SELECT * FROM Products 
+                                         WHERE Name LIKE {0}", "%" + searchQuery + "%")
+                               .ToListAsync();
+
+            return View(products);
         }
 
         // GET: Admin/Product/Details/5
@@ -156,15 +166,26 @@ namespace WebCamping.Areas.Admin.Controllers
                     product.Description = request.Description;
                     if (request.Avatar != null)
                     {
-                        if (!string.IsNullOrEmpty(product.Avatar))
+                        try
                         {
-                            var oldImagePath = Path.Combine(_hostEnv.WebRootPath, "data", "products", product.Avatar);
-                            if (System.IO.File.Exists(oldImagePath))
+                            if (!string.IsNullOrEmpty(product.Avatar))
                             {
-                                System.IO.File.Delete(oldImagePath);
+                                var oldImagePath = Path.Combine(_hostEnv.WebRootPath, "data", "products", product.Avatar);
+                                if (System.IO.File.Exists(oldImagePath))
+                                {
+                                    System.IO.File.Delete(oldImagePath);
+                                }
                             }
                         }
-
+                        catch (IOException ex)
+                        {
+                            Console.WriteLine($"Không thể xóa file: {ex.Message}");
+                        }
+                        var directory = Path.Combine(_hostEnv.WebRootPath, "data", "products");
+                        if (!Directory.Exists(directory))
+                        {
+                            Directory.CreateDirectory(directory);
+                        }
                         var extension = Path.GetExtension(request.Avatar.FileName);
                         var newImageFileName = $"{Guid.NewGuid().ToString()}{extension}";
                         var filePath = Path.Combine(_hostEnv.WebRootPath, "data", "products", newImageFileName);
@@ -178,7 +199,7 @@ namespace WebCamping.Areas.Admin.Controllers
                     }
                     product.UpdatedDate = DateTime.Now;
                     product.UpdatedBy = userName;
-                    _context.Update(request);
+                    _context.Update(product);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -200,27 +221,27 @@ namespace WebCamping.Areas.Admin.Controllers
         }
 
         // GET: Admin/Product/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
+        //public async Task<IActionResult> Delete(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            var product = await _context.Products
-                .Include(p => p.Brand)
-                .Include(p => p.Category)
-                .FirstOrDefaultAsync(m => m.PRO_ID == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
+        //    var product = await _context.Products
+        //        .Include(p => p.Brand)
+        //        .Include(p => p.Category)
+        //        .FirstOrDefaultAsync(m => m.PRO_ID == id);
+        //    if (product == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return View(product);
-        }
+        //    return View(product);
+        //}
 
         // POST: Admin/Product/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
@@ -228,9 +249,10 @@ namespace WebCamping.Areas.Admin.Controllers
             if (product != null)
             {
                 _context.Products.Remove(product);
+                await _context.SaveChangesAsync();
+                TempData["SuccessMessage"] = "Product deleted successfully!";
             }
-
-            await _context.SaveChangesAsync();
+            
             return RedirectToAction(nameof(Index));
         }
 

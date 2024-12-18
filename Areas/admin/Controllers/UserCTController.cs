@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WebCamping.Models;
-
+using WebCamping.Utils;
 namespace WebCamping.Areas.Admin.Controllers
 {
     [Area("Admin")]
@@ -54,10 +54,16 @@ namespace WebCamping.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("USE_ID,Password,UserName,LastName,FirstName,Gender,Phone,Email,Address,CreatedDate,CreatedBy,UpdatedDate,UpdatedBy")] User user)
+        public async Task<IActionResult> Create([FromForm] User user)
         {
             if (ModelState.IsValid)
             {
+                var userInfo = HttpContext.Session.Get<AdminUser>("userInfo");
+                var userName = userInfo != null ? userInfo.Username : "";
+                user.UpdatedDate = DateTime.Now;
+                user.UpdatedBy = userName;
+                user.CreatedDate = DateTime.Now;
+                user.CreatedBy = userName;
                 _context.Add(user);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -86,7 +92,7 @@ namespace WebCamping.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("USE_ID,Password,UserName,LastName,FirstName,Gender,Phone,Email,Address,CreatedDate,CreatedBy,UpdatedDate,UpdatedBy")] User user)
+        public async Task<IActionResult> Edit(int id, [FromForm] User user)
         {
             if (id != user.USE_ID)
             {
@@ -97,6 +103,12 @@ namespace WebCamping.Areas.Admin.Controllers
             {
                 try
                 {
+                    var userInfo = HttpContext.Session.Get<AdminUser>("userInfo");
+                    var userName = userInfo != null ? userInfo.Username : "";
+                    user.UpdatedDate = DateTime.Now;
+                    user.UpdatedBy = userName;
+                    user.CreatedDate = DateTime.Now;
+                    user.CreatedBy = userName;
                     _context.Update(user);
                     await _context.SaveChangesAsync();
                 }
