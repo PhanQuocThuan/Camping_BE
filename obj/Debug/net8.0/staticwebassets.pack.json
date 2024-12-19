@@ -1,1515 +1,1531 @@
 {
   "Files": [
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebCamping.bundle.scp.css",
+      "Id": "D:\\Camper\\Camping_BE\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebCamping.bundle.scp.css",
       "PackagePath": "staticwebassets\\WebCamping.bundle.scp.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\css\\Contact.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\css\\Contact.css",
       "PackagePath": "staticwebassets\\admin\\css\\Contact.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\css\\Login.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\css\\Login.css",
       "PackagePath": "staticwebassets\\admin\\css\\Login.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\css\\admin.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\css\\admin.css",
       "PackagePath": "staticwebassets\\admin\\css\\admin.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\css\\styles.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\css\\styles.css",
       "PackagePath": "staticwebassets\\admin\\css\\styles.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\img\\bruh.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\img\\bruh.jpg",
       "PackagePath": "staticwebassets\\admin\\img\\bruh.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\img\\logo.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\img\\logo.jpg",
       "PackagePath": "staticwebassets\\admin\\img\\logo.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\admin\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\admin\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\admin\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\admin\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\admin\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\admin\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\admin\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5-content.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5-content.css",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\ckeditor5-content.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5-editor.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5-editor.css",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\ckeditor5-editor.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5.css",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\ckeditor5.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5.css.map",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\ckeditor5.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\ckeditor5.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5.js.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5.js.map",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\ckeditor5.js.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\ckeditor5.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5.umd.js.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\ckeditor5.umd.js.map",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\ckeditor5.umd.js.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\af.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\af.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\af.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\af.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\af.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\af.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\af.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\af.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\af.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ar.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ar.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ar.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ar.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ar.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ar.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ar.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ar.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ar.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ast.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ast.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ast.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ast.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ast.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ast.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ast.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ast.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ast.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\az.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\az.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\az.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\az.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\az.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\az.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\az.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\az.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\az.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bg.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bg.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\bg.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bg.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bg.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\bg.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bg.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bg.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\bg.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bn.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bn.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\bn.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bn.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bn.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\bn.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bn.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bn.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\bn.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bs.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bs.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\bs.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bs.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bs.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\bs.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bs.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\bs.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\bs.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ca.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ca.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ca.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ca.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ca.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ca.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ca.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ca.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ca.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\cs.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\cs.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\cs.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\cs.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\cs.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\cs.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\cs.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\cs.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\cs.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\da.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\da.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\da.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\da.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\da.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\da.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\da.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\da.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\da.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\de-ch.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\de-ch.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\de-ch.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\de-ch.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\de-ch.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\de-ch.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\de-ch.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\de-ch.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\de-ch.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\de.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\de.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\de.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\de.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\de.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\de.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\de.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\de.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\de.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\el.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\el.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\el.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\el.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\el.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\el.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\el.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\el.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\el.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en-au.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en-au.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\en-au.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en-au.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en-au.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\en-au.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en-au.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en-au.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\en-au.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en-gb.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en-gb.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\en-gb.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en-gb.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en-gb.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\en-gb.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en-gb.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en-gb.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\en-gb.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\en.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\en.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\en.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\en.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\eo.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\eo.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\eo.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\eo.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\eo.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\eo.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\eo.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\eo.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\eo.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\es-co.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\es-co.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\es-co.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\es-co.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\es-co.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\es-co.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\es-co.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\es-co.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\es-co.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\es.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\es.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\es.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\es.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\es.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\es.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\es.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\es.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\es.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\et.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\et.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\et.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\et.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\et.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\et.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\et.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\et.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\et.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\eu.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\eu.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\eu.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\eu.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\eu.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\eu.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\eu.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\eu.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\eu.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fa.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fa.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\fa.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fa.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fa.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\fa.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fa.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fa.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\fa.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fi.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fi.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\fi.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fi.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fi.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\fi.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fi.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fi.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\fi.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fr.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fr.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\fr.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fr.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fr.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\fr.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fr.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\fr.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\fr.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\gl.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\gl.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\gl.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\gl.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\gl.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\gl.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\gl.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\gl.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\gl.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\gu.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\gu.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\gu.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\gu.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\gu.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\gu.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\gu.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\gu.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\gu.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\he.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\he.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\he.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\he.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\he.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\he.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\he.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\he.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\he.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hi.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hi.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\hi.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hi.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hi.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\hi.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hi.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hi.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\hi.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hr.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hr.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\hr.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hr.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hr.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\hr.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hr.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hr.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\hr.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hu.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hu.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\hu.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hu.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hu.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\hu.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hu.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hu.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\hu.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hy.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hy.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\hy.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hy.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hy.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\hy.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hy.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\hy.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\hy.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\id.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\id.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\id.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\id.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\id.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\id.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\id.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\id.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\id.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\it.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\it.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\it.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\it.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\it.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\it.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\it.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\it.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\it.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ja.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ja.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ja.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ja.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ja.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ja.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ja.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ja.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ja.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\jv.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\jv.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\jv.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\jv.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\jv.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\jv.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\jv.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\jv.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\jv.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\kk.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\kk.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\kk.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\kk.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\kk.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\kk.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\kk.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\kk.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\kk.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\km.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\km.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\km.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\km.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\km.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\km.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\km.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\km.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\km.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\kn.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\kn.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\kn.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\kn.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\kn.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\kn.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\kn.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\kn.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\kn.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ko.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ko.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ko.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ko.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ko.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ko.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ko.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ko.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ko.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ku.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ku.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ku.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ku.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ku.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ku.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ku.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ku.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ku.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\lt.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\lt.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\lt.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\lt.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\lt.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\lt.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\lt.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\lt.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\lt.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\lv.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\lv.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\lv.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\lv.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\lv.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\lv.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\lv.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\lv.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\lv.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ms.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ms.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ms.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ms.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ms.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ms.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ms.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ms.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ms.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\nb.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\nb.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\nb.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\nb.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\nb.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\nb.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\nb.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\nb.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\nb.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ne.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ne.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ne.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ne.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ne.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ne.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ne.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ne.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ne.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\nl.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\nl.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\nl.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\nl.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\nl.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\nl.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\nl.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\nl.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\nl.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\no.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\no.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\no.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\no.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\no.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\no.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\no.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\no.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\no.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\oc.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\oc.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\oc.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\oc.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\oc.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\oc.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\oc.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\oc.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\oc.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pl.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pl.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\pl.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pl.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pl.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\pl.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pl.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pl.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\pl.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pt-br.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pt-br.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\pt-br.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pt-br.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pt-br.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\pt-br.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pt-br.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pt-br.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\pt-br.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pt.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pt.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\pt.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pt.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pt.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\pt.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pt.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\pt.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\pt.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ro.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ro.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ro.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ro.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ro.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ro.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ro.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ro.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ro.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ru.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ru.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ru.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ru.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ru.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ru.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ru.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ru.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ru.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\si.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\si.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\si.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\si.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\si.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\si.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\si.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\si.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\si.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sk.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sk.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sk.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sk.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sk.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sk.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sk.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sk.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sk.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sl.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sl.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sl.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sl.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sl.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sl.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sl.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sl.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sl.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sq.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sq.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sq.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sq.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sq.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sq.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sq.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sq.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sq.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sr-latn.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sr-latn.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sr-latn.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sr-latn.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sr-latn.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sr-latn.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sr-latn.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sr-latn.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sr-latn.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sr.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sr.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sr.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sr.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sr.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sr.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sr.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sr.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sr.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sv.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sv.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sv.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sv.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sv.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sv.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sv.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\sv.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\sv.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\th.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\th.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\th.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\th.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\th.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\th.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\th.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\th.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\th.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ti.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ti.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ti.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ti.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ti.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ti.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ti.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ti.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ti.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tk.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tk.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\tk.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tk.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tk.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\tk.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tk.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tk.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\tk.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tr.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tr.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\tr.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tr.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tr.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\tr.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tr.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tr.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\tr.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tt.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tt.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\tt.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tt.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tt.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\tt.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tt.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\tt.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\tt.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ug.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ug.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ug.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ug.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ug.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ug.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ug.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ug.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ug.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\uk.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\uk.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\uk.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\uk.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\uk.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\uk.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\uk.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\uk.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\uk.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ur.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ur.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ur.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ur.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ur.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ur.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ur.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\ur.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\ur.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\uz.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\uz.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\uz.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\uz.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\uz.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\uz.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\uz.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\uz.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\uz.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\vi.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\vi.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\vi.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\vi.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\vi.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\vi.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\vi.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\vi.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\vi.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\zh-cn.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\zh-cn.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\zh-cn.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\zh-cn.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\zh-cn.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\zh-cn.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\zh-cn.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\zh-cn.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\zh-cn.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\zh.d.ts",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\zh.d.ts",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\zh.d.ts"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\zh.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\zh.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\zh.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\zh.umd.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\admin\\plugins\\ckeditor5\\translations\\zh.umd.js",
       "PackagePath": "staticwebassets\\admin\\plugins\\ckeditor5\\translations\\zh.umd.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\css\\styles.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\0bafd0cf-95ad-44b6-9d9b-db78de821868.png",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\data\\banners\\8949709e-b3a9-45c6-bab0-a32e9b6c5b41.svg",
+      "PackagePath": "staticwebassets\\data\\banners\\8949709e-b3a9-45c6-bab0-a32e9b6c5b41.svg"
+    },
+    {
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\data\\banners\\a6a82a0c-66f4-4ab2-b60d-331a30365393.jpg",
+      "PackagePath": "staticwebassets\\data\\banners\\a6a82a0c-66f4-4ab2-b60d-331a30365393.jpg"
+    },
+    {
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\data\\brands\\0bafd0cf-95ad-44b6-9d9b-db78de821868.png",
       "PackagePath": "staticwebassets\\data\\brands\\0bafd0cf-95ad-44b6-9d9b-db78de821868.png"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\9f4dedef-0bac-4385-8de2-3d1a95caaf50.png",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\data\\brands\\5333428e-e3a5-42f9-b21a-8e00f5d18c8e.jpg",
+      "PackagePath": "staticwebassets\\data\\brands\\5333428e-e3a5-42f9-b21a-8e00f5d18c8e.jpg"
+    },
+    {
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\data\\brands\\9f4dedef-0bac-4385-8de2-3d1a95caaf50.png",
       "PackagePath": "staticwebassets\\data\\brands\\9f4dedef-0bac-4385-8de2-3d1a95caaf50.png"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\fba7723a-d681-4567-bbb2-88a27a04aa19.png",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\data\\brands\\fba7723a-d681-4567-bbb2-88a27a04aa19.png",
       "PackagePath": "staticwebassets\\data\\brands\\fba7723a-d681-4567-bbb2-88a27a04aa19.png"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\0771faf8-34cc-4ac7-92bf-09561f505155.png",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\data\\features\\bbe40cee-8228-4fa0-9a4c-e43a62837f85.svg",
+      "PackagePath": "staticwebassets\\data\\features\\bbe40cee-8228-4fa0-9a4c-e43a62837f85.svg"
+    },
+    {
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\data\\products\\0771faf8-34cc-4ac7-92bf-09561f505155.png",
       "PackagePath": "staticwebassets\\data\\products\\0771faf8-34cc-4ac7-92bf-09561f505155.png"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\0e475348-df63-4b87-96f1-3f160a79a7ce.png",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\data\\products\\0e475348-df63-4b87-96f1-3f160a79a7ce.png",
       "PackagePath": "staticwebassets\\data\\products\\0e475348-df63-4b87-96f1-3f160a79a7ce.png"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\4530985f-ada3-4efd-b03e-03795c8ce5b5.png",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\data\\products\\4530985f-ada3-4efd-b03e-03795c8ce5b5.png",
       "PackagePath": "staticwebassets\\data\\products\\4530985f-ada3-4efd-b03e-03795c8ce5b5.png"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\697b1814-10bd-4ccb-996f-66da5ea236b9.png",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\data\\products\\697b1814-10bd-4ccb-996f-66da5ea236b9.png",
       "PackagePath": "staticwebassets\\data\\products\\697b1814-10bd-4ccb-996f-66da5ea236b9.png"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\86579db1-e931-41e6-928a-f88822bb27e2.png",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\data\\products\\86579db1-e931-41e6-928a-f88822bb27e2.png",
       "PackagePath": "staticwebassets\\data\\products\\86579db1-e931-41e6-928a-f88822bb27e2.png"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\a3d1e2bd-70e7-4ecf-9ef8-ba61f1cb391e.png",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\data\\products\\a3d1e2bd-70e7-4ecf-9ef8-ba61f1cb391e.png",
       "PackagePath": "staticwebassets\\data\\products\\a3d1e2bd-70e7-4ecf-9ef8-ba61f1cb391e.png"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\d0e7e693-ac89-4033-bfea-9249be14b8c4.png",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\data\\products\\d0e7e693-ac89-4033-bfea-9249be14b8c4.png",
       "PackagePath": "staticwebassets\\data\\products\\d0e7e693-ac89-4033-bfea-9249be14b8c4.png"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\favicon.ico",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\MADFOX.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\MADFOX.jpg",
       "PackagePath": "staticwebassets\\img\\MADFOX.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\Naturehikepng.png",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\Naturehikepng.png",
       "PackagePath": "staticwebassets\\img\\Naturehikepng.png"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\Phusi-japan.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\Phusi-japan.jpg",
       "PackagePath": "staticwebassets\\img\\Phusi-japan.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\Tour-dap-xe-cam-trai-kham-pha-rung-mai-anh-dao-4.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\Tour-dap-xe-cam-trai-kham-pha-rung-mai-anh-dao-4.jpg",
       "PackagePath": "staticwebassets\\img\\Tour-dap-xe-cam-trai-kham-pha-rung-mai-anh-dao-4.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\Tour-dap-xe-cam-trai.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\Tour-dap-xe-cam-trai.jpg",
       "PackagePath": "staticwebassets\\img\\Tour-dap-xe-cam-trai.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\VULTURA.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\VULTURA.jpg",
       "PackagePath": "staticwebassets\\img\\VULTURA.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\bg-footer.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\bg-footer.jpg",
       "PackagePath": "staticwebassets\\img\\bg-footer.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\bruh.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\bruh.jpg",
       "PackagePath": "staticwebassets\\img\\bruh.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\camping_2.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\camping_2.jpg",
       "PackagePath": "staticwebassets\\img\\camping_2.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\dap-xe-2.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\dap-xe-2.jpg",
       "PackagePath": "staticwebassets\\img\\dap-xe-2.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\glamping-phu-yen-min-1400x800.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\glamping-phu-yen-min-1400x800.jpg",
       "PackagePath": "staticwebassets\\img\\glamping-phu-yen-min-1400x800.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\logo.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\logo.jpg",
       "PackagePath": "staticwebassets\\img\\logo.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\nav.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\nav.jpg",
       "PackagePath": "staticwebassets\\img\\nav.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\nav1.png",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\nav1.png",
       "PackagePath": "staticwebassets\\img\\nav1.png"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\nav2.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\nav2.jpg",
       "PackagePath": "staticwebassets\\img\\nav2.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\sakura-duong-2.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\sakura-duong-2.jpg",
       "PackagePath": "staticwebassets\\img\\sakura-duong-2.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\slider.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\slider.jpg",
       "PackagePath": "staticwebassets\\img\\slider.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\tim-hieu-dinh-nghia-du-lich-va-cac-loai-hinh-du-lich.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\tim-hieu-dinh-nghia-du-lich-va-cac-loai-hinh-du-lich.jpg",
       "PackagePath": "staticwebassets\\img\\tim-hieu-dinh-nghia-du-lich-va-cac-loai-hinh-du-lich.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\img\\vinh-Ha-Long.jpg",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\img\\vinh-Ha-Long.jpg",
       "PackagePath": "staticwebassets\\img\\vinh-Ha-Long.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\js\\site.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Camper\\Camping_BE\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

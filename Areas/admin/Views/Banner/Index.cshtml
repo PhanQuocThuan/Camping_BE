@@ -1,0 +1,81 @@
+﻿@model IEnumerable<WebCamping.Models.Banner>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="row d-flex justify-content-between">
+    <div class="col-1">
+        <h1>banner</h1>
+    </div>
+    <div class="col-1 my-auto">
+        <a asp-action="Create" class="text-decoration-none">
+            <button class="cssbuttons-io-button">
+                <span><i class="fa-solid fa-plus"></i></span>
+                Add
+            </button>
+        </a>
+    </div>
+</div>
+
+<table class="table table-striped table-bordered ">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Url)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DisplayOrder)
+            </th>
+            
+            <th style="width: 10rem">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                <img src=~/Data/Banners/@item.Image style="width:100px;" />
+                @* @Html.DisplayFor(modelItem => item.Image) *@
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Url)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DisplayOrder)
+            </td>
+            
+              <td>
+                    <div class="d-flex justify-content-center gap-2">
+                        <a asp-action="Edit" asp-route-id="@item.BAN_ID" class="text-decoration-none">
+                            <button class="edit-button">
+                                <i class="fa-solid fa-pen text-white edit-svgIcon"></i>
+                            </button>
+                        </a>
+                        <a asp-action="Details" asp-route-id="@item.BAN_ID" class="text-decoration-none">
+                            <button class="detail-button">
+                                <i class="fa-solid fa-info text-white detail-svgIcon"></i>
+                            </button>
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.BAN_ID" class="text-decoration-none">
+                            <button class="trash-button">
+                                <i class="fa-solid fa-trash text-white trash-svgIcon"></i>
+                            </button>
+                        </a>
+                    </div>
+              </td>
+        </tr>
+}
+    </tbody>
+</table>

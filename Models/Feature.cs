@@ -9,10 +9,10 @@ namespace WebCamping.Models
     {
         [Key]
         public int FEA_ID { get; set; }
-        public required string Icon { get; set; }
+        public string? Icon { get; set; }
         public required string Title { get; set; }
         [DisplayName("Sub Title")]
-        public int Subtitle { get; set; }
+        public string? Subtitle { get; set; }
         [DisplayName("Display Order")]
         public int DisplayOrder { get; set; }
     }

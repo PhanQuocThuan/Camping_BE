@@ -9,6 +9,6 @@ namespace WebCamping.Areas.Admin.DTOs.request
         public IFormFile? Avatar { get; set; }
         public string? Phone { get; set; }
         public string? Email { get; set; }
-        public string? BRA_Address { get; set; }
+        public string? Address { get; set; }
     }
 }

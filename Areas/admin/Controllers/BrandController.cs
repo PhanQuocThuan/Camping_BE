@@ -69,7 +69,7 @@ namespace WebCamping.Areas.Admin.Controllers
                 Name = request.Name,
                 Phone = request.Phone,
                 Email = request.Email,
-                BRA_Address = request.BRA_Address,
+                Address = request.Address,
             };
             if (ModelState.IsValid)
             {
@@ -86,6 +86,8 @@ namespace WebCamping.Areas.Admin.Controllers
                 brand.UpdatedBy = userName;
                 brand.CreatedDate = DateTime.Now;
                 brand.CreatedBy = userName;
+
+
                 _context.Add(brand);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -135,7 +137,7 @@ namespace WebCamping.Areas.Admin.Controllers
                     brand.Name = request.Name;
                     brand.Phone = request.Phone;
                     brand.Email = request.Email;
-                    brand.BRA_Address = request.BRA_Address;
+                    brand.Address = request.Address;
                     if (request.Avatar != null)
                     {
                         if (!string.IsNullOrEmpty(brand.Avatar))

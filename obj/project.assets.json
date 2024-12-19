@@ -7763,24 +7763,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\test\\BackEnd_WebCamping\\WebCamping.csproj",
+      "projectUniqueName": "D:\\Camper\\Camping_BE\\WebCamping.csproj",
       "projectName": "WebCamping",
-      "projectPath": "D:\\test\\BackEnd_WebCamping\\WebCamping.csproj",
+      "projectPath": "D:\\Camper\\Camping_BE\\WebCamping.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\test\\BackEnd_WebCamping\\obj\\",
+      "outputPath": "D:\\Camper\\Camping_BE\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7850,7 +7845,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -17,147 +17,207 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebCamping
 build_property.RootNamespace = WebCamping
-build_property.ProjectDir = D:\test\BackEnd_WebCamping\
+build_property.ProjectDir = D:\Camper\Camping_BE\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\test\BackEnd_WebCamping
+build_property.MSBuildProjectDirectory = D:\Camper\Camping_BE
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Brand/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcQ3JlYXRlLmNzaHRtbA==
+[D:/Camper/Camping_BE/Areas/admin/Views/Banner/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQmFubmVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Brand/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcRGVsZXRlLmNzaHRtbA==
+[D:/Camper/Camping_BE/Areas/admin/Views/Banner/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQmFubmVyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Brand/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcRGV0YWlscy5jc2h0bWw=
+[D:/Camper/Camping_BE/Areas/admin/Views/Banner/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQmFubmVyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Brand/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcRWRpdC5jc2h0bWw=
+[D:/Camper/Camping_BE/Areas/admin/Views/Banner/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQmFubmVyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Brand/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcSW5kZXguY3NodG1s
+[D:/Camper/Camping_BE/Areas/admin/Views/Banner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQmFubmVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Category/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+[D:/Camper/Camping_BE/Areas/admin/Views/Brand/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQnJhbmRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Category/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+[D:/Camper/Camping_BE/Areas/admin/Views/Brand/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQnJhbmRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Category/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+[D:/Camper/Camping_BE/Areas/admin/Views/Brand/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQnJhbmRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Category/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+[D:/Camper/Camping_BE/Areas/admin/Views/Brand/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQnJhbmRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Category/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+[D:/Camper/Camping_BE/Areas/admin/Views/Brand/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQnJhbmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/Camper/Camping_BE/Areas/admin/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Product/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+[D:/Camper/Camping_BE/Areas/admin/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Product/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
+[D:/Camper/Camping_BE/Areas/admin/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Product/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+[D:/Camper/Camping_BE/Areas/admin/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Product/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+[D:/Camper/Camping_BE/Areas/admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Product/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+[D:/Camper/Camping_BE/Areas/admin/Views/Feature/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcRmVhdHVyZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[D:/Camper/Camping_BE/Areas/admin/Views/Feature/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcRmVhdHVyZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[D:/Camper/Camping_BE/Areas/admin/Views/Feature/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcRmVhdHVyZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/User/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+[D:/Camper/Camping_BE/Areas/admin/Views/Feature/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcRmVhdHVyZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[D:/Camper/Camping_BE/Areas/admin/Views/Feature/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcRmVhdHVyZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[D:/Camper/Camping_BE/Areas/admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Views/camp/Cook.cshtml]
+[D:/Camper/Camping_BE/Areas/admin/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Camper/Camping_BE/Areas/admin/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Camper/Camping_BE/Areas/admin/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Camper/Camping_BE/Areas/admin/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Camper/Camping_BE/Areas/admin/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Camper/Camping_BE/Areas/admin/Views/Setting/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2V0dGluZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Camper/Camping_BE/Areas/admin/Views/Setting/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2V0dGluZ1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Camper/Camping_BE/Areas/admin/Views/Setting/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2V0dGluZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Camper/Camping_BE/Areas/admin/Views/Setting/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2V0dGluZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Camper/Camping_BE/Areas/admin/Views/Setting/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2V0dGluZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Camper/Camping_BE/Areas/admin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Camper/Camping_BE/Areas/admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Camper/Camping_BE/Areas/admin/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Camper/Camping_BE/Areas/admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Camper/Camping_BE/Areas/admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Camper/Camping_BE/Views/camp/Cook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2FtcFxDb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Views/camp/Index.cshtml]
+[D:/Camper/Camping_BE/Views/camp/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2FtcFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Views/Cart/Index.cshtml]
+[D:/Camper/Camping_BE/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Views/Contact/Index.cshtml]
+[D:/Camper/Camping_BE/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Views/Home/Detail.cshtml]
+[D:/Camper/Camping_BE/Views/Home/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Views/Home/Index.cshtml]
+[D:/Camper/Camping_BE/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Views/Home/Privacy.cshtml]
+[D:/Camper/Camping_BE/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Views/Shared/Error.cshtml]
+[D:/Camper/Camping_BE/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Camper/Camping_BE/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Views/_ViewImports.cshtml]
+[D:/Camper/Camping_BE/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Views/_ViewStart.cshtml]
+[D:/Camper/Camping_BE/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/test/BackEnd_WebCamping/Areas/Admin/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+[D:/Camper/Camping_BE/Areas/admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-e9w1ngd35y
 
-[D:/test/BackEnd_WebCamping/Views/Shared/_Layout.cshtml]
+[D:/Camper/Camping_BE/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-w59llytj86
