@@ -21,8 +21,8 @@ namespace WebCamping.Models
         [DisplayName("Payment Method")]
         public string? PaymentMethod { get; set; }
         public string? Note { get; set; }
-        [ForeignKey("MEN_ID")]
-        public virtual User? Menber { get; set; }
+        [ForeignKey("USE_ID")]
+        public virtual User? User { get; set; }
         public virtual ICollection<OrderDetail>? OrderDetails { get; set; }
     }
 }

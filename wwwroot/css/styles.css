@@ -287,10 +287,10 @@ a.btn i {
 .nav-item .link:hover {
   color: white;
 }
-/* From Uiverse.io by andrew-demchenk0 */
-.rating:not(:checked) > input {
-  appearance: none;
-}
+    /* From Uiverse.io by andrew-demchenk0 */
+    .rating:not(:checked) > input {
+        appearance: none;
+    }
 
 .rating:not(:checked) > label {
   float: right;
@@ -923,7 +923,7 @@ button:active {
 .button-cart {
     font-family: inherit;
     font-size: 20px;
-    background: royalblue;
+    background: #198754;
     color: white;
     padding: 0.7em 1em;
     padding-left: 0.9em;
@@ -1006,4 +1006,22 @@ button:active {
 .banner-btn:hover {
     background-color:#2aff00;
     color: white;
+}
+.text-truncate-multiline {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4; /* Hiển thị tối đa 4 dòng */
+    line-height: 1.5; /* Điều chỉnh khoảng cách giữa các dòng */
+    max-height: calc(1.5em * 4); /* 1.5em là chiều cao dòng nhân với số dòng */
+}
+.title-truncate-multiline {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Số dòng muốn giới hạn */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Thêm dấu ... */
+    color: #198754;
+    white-space: normal;
 }

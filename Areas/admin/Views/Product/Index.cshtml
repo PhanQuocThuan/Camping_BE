@@ -10,7 +10,7 @@
 </div>
 <div class="row d-flex justify-content-between">
     <div class="col-1">
-        <h1>Brand</h1>
+        <h1>Product</h1>
     </div>
     <div class="col-1 my-auto">
         <a asp-action="Create" class="text-decoration-none">
@@ -21,7 +21,7 @@
         </a>
     </div>
 </div>
-<table class="table">
+<table class="table table-border">
     <thead>
         <tr>
             <th>
@@ -54,7 +54,7 @@
             <th style="width: 10rem">Actions</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody class="text-center">
 @foreach (var item in Model) {
         <tr>
             <td>
@@ -72,10 +72,10 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Rate)
             </td>
-            <td>
+            <td class="text-truncate" style="max-width: 200px;">
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
-            <td>
+            <td class="text-truncate" style="max-width: 200px;">
                 @Html.DisplayFor(modelItem => item.Intro)
             </td>
             <td>

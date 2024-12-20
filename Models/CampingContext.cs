@@ -20,6 +20,7 @@ namespace WebCamping.Models
         public DbSet<User> Users { get; set; }
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Place> Places { get; set; }
+        public DbSet<Menu> Menus { get; set; }
         public DbSet<WebCamping.Models.Brand> Brand { get; set; } = default!;
 
     }

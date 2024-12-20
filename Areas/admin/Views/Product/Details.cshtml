@@ -14,7 +14,7 @@
             @Html.DisplayNameFor(model => model.Avatar)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Avatar)
+            <img src="~/data/products/@Model.Avatar" alt="@Html.DisplayFor(model => model.Avatar)" style="width: 10rem; height: 10rem;" />
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Name)
@@ -56,13 +56,13 @@
             @Html.DisplayNameFor(model => model.Category)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Category.CAT_ID)
+            @Html.DisplayFor(model => model.Category.Name)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Brand)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Brand.BRA_ID)
+            @Html.DisplayFor(model => model.Brand.Name)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.CreatedDate)

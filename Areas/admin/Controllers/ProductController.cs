@@ -30,18 +30,30 @@ namespace WebCamping.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> Index(string searchQuery)
         {
+            //tham chiếu khóa ngoại từ bảng Product đến khóa chính các bảng và xuất ra danh sách 
             if (string.IsNullOrEmpty(searchQuery))
             {
-                var allProducts = await _context.Products.ToListAsync();
+                var allProducts = await _context.Products
+                                                .Include(p => p.Category)
+                                                .Include(p => p.Brand)
+                                                .ToListAsync();
                 return View(allProducts);
             }
+            //truy vấn dữ liệu từ search 
             var products = await _context.Products
-                               .FromSqlRaw(@"SELECT * FROM Products 
-                                         WHERE Name LIKE {0}", "%" + searchQuery + "%")
-                               .ToListAsync();
+                                         .FromSqlRaw(@"SELECT * FROM Products WHERE Name LIKE {0}", "%" + searchQuery + "%")
+                                         .ToListAsync();
+
+            // nạp thông tin category với brand
+            foreach (var product in products)
+            {
+                await _context.Entry(product).Reference(p => p.Category).LoadAsync();
+                await _context.Entry(product).Reference(p => p.Brand).LoadAsync();
+            }
 
             return View(products);
         }
+
 
         // GET: Admin/Product/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -245,6 +257,7 @@ namespace WebCamping.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            
             var product = await _context.Products.FindAsync(id);
             if (product != null)
             {

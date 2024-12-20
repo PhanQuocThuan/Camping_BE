@@ -118,8 +118,6 @@ namespace WebCamping.Areas.admin.Controllers
                     var userName = userInfo != null ? userInfo.Username : "";
                     category.UpdatedDate = DateTime.Now;
                     category.UpdatedBy = userName;
-                    category.CreatedDate = DateTime.Now;
-                    category.CreatedBy = userName;
                     _context.Update(category);
                     await _context.SaveChangesAsync();
                 }

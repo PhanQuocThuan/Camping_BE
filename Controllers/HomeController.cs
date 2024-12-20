@@ -22,8 +22,16 @@ namespace CampingEquipment.Controllers
                  .Include(x => x.Products.OrderBy(y => y.Name))
                  .OrderBy(x => x.BRA_ID).ToList();
 
-            ViewData["HostProducts"] = _context.Products.AsNoTracking()
+            ViewData["Categories"] = _context.Categories.AsNoTracking()
+                 .Include(x => x.Products.OrderBy(y => y.Name))
+                 .OrderBy(x => x.CAT_ID).ToList();
+
+            ViewData["BrandProducts"] = _context.Products.AsNoTracking()
                 .Include(x => x.Brand)
+                .OrderBy(x => x.Price).ToList();
+
+            ViewData["CategoryProducts"] = _context.Products.AsNoTracking()
+                .Include(x => x.Category)
                 .OrderBy(x => x.Price).ToList();
             return View();
         }

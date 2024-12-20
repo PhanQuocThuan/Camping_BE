@@ -1161,24 +1161,48 @@
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\0bafd0cf-95ad-44b6-9d9b-db78de821868.png",
-      "PackagePath": "staticwebassets\\data\\brands\\0bafd0cf-95ad-44b6-9d9b-db78de821868.png"
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\031135af-0ded-4ea8-aa47-3ca5ad537a4a.jpg",
+      "PackagePath": "staticwebassets\\data\\brands\\031135af-0ded-4ea8-aa47-3ca5ad537a4a.jpg"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\0ff6d6f1-3bf2-4244-9507-f49a7c7ed3a7.webp",
+      "PackagePath": "staticwebassets\\data\\brands\\0ff6d6f1-3bf2-4244-9507-f49a7c7ed3a7.webp"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\10e7887c-c1c9-44fc-8fae-45d07c2c9664.jpg",
+      "PackagePath": "staticwebassets\\data\\brands\\10e7887c-c1c9-44fc-8fae-45d07c2c9664.jpg"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\249a4fc2-4e3b-45a6-87f2-0c6ad428d850.webp",
+      "PackagePath": "staticwebassets\\data\\brands\\249a4fc2-4e3b-45a6-87f2-0c6ad428d850.webp"
     },
     {
       "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\27fce945-7f45-4559-8c03-ab6e8a8e9e03.png",
       "PackagePath": "staticwebassets\\data\\brands\\27fce945-7f45-4559-8c03-ab6e8a8e9e03.png"
     },
     {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\41454bd0-83cb-46c1-8c4d-f5cd9b83e6ec.png",
+      "PackagePath": "staticwebassets\\data\\brands\\41454bd0-83cb-46c1-8c4d-f5cd9b83e6ec.png"
+    },
+    {
       "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\732b048e-2607-4348-9dcf-2a4fdaa414a6.jpg",
       "PackagePath": "staticwebassets\\data\\brands\\732b048e-2607-4348-9dcf-2a4fdaa414a6.jpg"
     },
     {
-      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\818a14e4-20f2-4136-8e5a-be4ef19f68b3.png",
-      "PackagePath": "staticwebassets\\data\\brands\\818a14e4-20f2-4136-8e5a-be4ef19f68b3.png"
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\789bc868-582b-47e9-9d06-f5aadacbe08c.webp",
+      "PackagePath": "staticwebassets\\data\\brands\\789bc868-582b-47e9-9d06-f5aadacbe08c.webp"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\7cdf0374-9176-4ff5-882f-dc2ed76c353f.webp",
+      "PackagePath": "staticwebassets\\data\\brands\\7cdf0374-9176-4ff5-882f-dc2ed76c353f.webp"
     },
     {
       "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\94d269c5-8196-45e6-bcbd-b9501f3c2662.jpg",
       "PackagePath": "staticwebassets\\data\\brands\\94d269c5-8196-45e6-bcbd-b9501f3c2662.jpg"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\9dbc43b7-dbe0-4879-898f-019ba442f192.webp",
+      "PackagePath": "staticwebassets\\data\\brands\\9dbc43b7-dbe0-4879-898f-019ba442f192.webp"
     },
     {
       "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\brands\\9f4dedef-0bac-4385-8de2-3d1a95caaf50.png",
@@ -1201,6 +1225,10 @@
       "PackagePath": "staticwebassets\\data\\brands\\e8a47555-b79a-45e2-8950-142d386d83fb.jpg"
     },
     {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\places\\867529e9-d757-4cf8-aeda-2028a158c11c.jpg",
+      "PackagePath": "staticwebassets\\data\\places\\867529e9-d757-4cf8-aeda-2028a158c11c.jpg"
+    },
+    {
       "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\0771faf8-34cc-4ac7-92bf-09561f505155.png",
       "PackagePath": "staticwebassets\\data\\products\\0771faf8-34cc-4ac7-92bf-09561f505155.png"
     },
@@ -1209,16 +1237,44 @@
       "PackagePath": "staticwebassets\\data\\products\\0e475348-df63-4b87-96f1-3f160a79a7ce.png"
     },
     {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\0fdc9b71-0045-449a-905c-978a584a2d9e.webp",
+      "PackagePath": "staticwebassets\\data\\products\\0fdc9b71-0045-449a-905c-978a584a2d9e.webp"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\10a6a9b5-a109-46e0-93af-857664db4148.webp",
+      "PackagePath": "staticwebassets\\data\\products\\10a6a9b5-a109-46e0-93af-857664db4148.webp"
+    },
+    {
       "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\1566320d-4877-4e1c-b912-e86e41b9460a.png",
       "PackagePath": "staticwebassets\\data\\products\\1566320d-4877-4e1c-b912-e86e41b9460a.png"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\17df6877-b649-482b-a106-a3a657a3a167.jpg",
+      "PackagePath": "staticwebassets\\data\\products\\17df6877-b649-482b-a106-a3a657a3a167.jpg"
     },
     {
       "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\187ec0be-4973-41fb-a563-6bdce7c19cbd.jpg",
       "PackagePath": "staticwebassets\\data\\products\\187ec0be-4973-41fb-a563-6bdce7c19cbd.jpg"
     },
     {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\2f49a949-b0de-45d1-b94e-60c66474e7cc.jpeg",
+      "PackagePath": "staticwebassets\\data\\products\\2f49a949-b0de-45d1-b94e-60c66474e7cc.jpeg"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\35c270f5-6f12-4615-9e57-2a520a5a2308.jpeg",
+      "PackagePath": "staticwebassets\\data\\products\\35c270f5-6f12-4615-9e57-2a520a5a2308.jpeg"
+    },
+    {
       "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\4530985f-ada3-4efd-b03e-03795c8ce5b5.png",
       "PackagePath": "staticwebassets\\data\\products\\4530985f-ada3-4efd-b03e-03795c8ce5b5.png"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\489eaab6-ba73-4ee2-9e74-e770f518e8a2.jpeg",
+      "PackagePath": "staticwebassets\\data\\products\\489eaab6-ba73-4ee2-9e74-e770f518e8a2.jpeg"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\51062de8-299f-4455-acc9-599b6f3457b6.webp",
+      "PackagePath": "staticwebassets\\data\\products\\51062de8-299f-4455-acc9-599b6f3457b6.webp"
     },
     {
       "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\5be88172-2cd8-468f-bf72-328537159e58.png",
@@ -1237,6 +1293,14 @@
       "PackagePath": "staticwebassets\\data\\products\\6f095220-5a91-4310-8d0b-65282a2499f8.png"
     },
     {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\76c82481-ec0d-4fb4-8a7b-e87f143fcebb.jpeg",
+      "PackagePath": "staticwebassets\\data\\products\\76c82481-ec0d-4fb4-8a7b-e87f143fcebb.jpeg"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\7e3c6697-f775-4c33-8175-d3e875df50fd.webp",
+      "PackagePath": "staticwebassets\\data\\products\\7e3c6697-f775-4c33-8175-d3e875df50fd.webp"
+    },
+    {
       "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\86579db1-e931-41e6-928a-f88822bb27e2.png",
       "PackagePath": "staticwebassets\\data\\products\\86579db1-e931-41e6-928a-f88822bb27e2.png"
     },
@@ -1253,8 +1317,40 @@
       "PackagePath": "staticwebassets\\data\\products\\ac568bdc-d74f-4fe7-92f4-9b4678ab2880.png"
     },
     {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\b25f18b3-246f-42da-b450-4a1420ac3d58.webp",
+      "PackagePath": "staticwebassets\\data\\products\\b25f18b3-246f-42da-b450-4a1420ac3d58.webp"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\c87b165d-12ad-4254-990d-88600beb9ce1.webp",
+      "PackagePath": "staticwebassets\\data\\products\\c87b165d-12ad-4254-990d-88600beb9ce1.webp"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\cb09ad94-52ac-4334-bb18-8ba24c6b3110.webp",
+      "PackagePath": "staticwebassets\\data\\products\\cb09ad94-52ac-4334-bb18-8ba24c6b3110.webp"
+    },
+    {
       "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\d0e7e693-ac89-4033-bfea-9249be14b8c4.png",
       "PackagePath": "staticwebassets\\data\\products\\d0e7e693-ac89-4033-bfea-9249be14b8c4.png"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\d9b12aeb-305b-48f5-9e19-b0c0e0fa58a2.jpeg",
+      "PackagePath": "staticwebassets\\data\\products\\d9b12aeb-305b-48f5-9e19-b0c0e0fa58a2.jpeg"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\da242ca0-bbe7-4262-ab8a-50127d5d6cab.webp",
+      "PackagePath": "staticwebassets\\data\\products\\da242ca0-bbe7-4262-ab8a-50127d5d6cab.webp"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\dc11dada-6cf7-4fb2-94fb-d1d551c52687.jpg",
+      "PackagePath": "staticwebassets\\data\\products\\dc11dada-6cf7-4fb2-94fb-d1d551c52687.jpg"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\e46a4e18-de00-4b8f-bc8b-360229dc9125.webp",
+      "PackagePath": "staticwebassets\\data\\products\\e46a4e18-de00-4b8f-bc8b-360229dc9125.webp"
+    },
+    {
+      "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\data\\products\\fa625866-4e4f-4994-8401-4e41d4bc65b5.png",
+      "PackagePath": "staticwebassets\\data\\products\\fa625866-4e4f-4994-8401-4e41d4bc65b5.png"
     },
     {
       "Id": "D:\\test\\BackEnd_WebCamping\\wwwroot\\favicon.ico",

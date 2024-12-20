@@ -41,48 +41,48 @@
                 <th>
                     @Html.DisplayNameFor(model => model.BRA_Address)
                 </th>
-                <th style="width:10rem">Actions</th>
+                <th style="width:10rem;">Actions</th>
             </tr>
         </thead>
         <tbody>
-    @foreach (var item in Model) {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                        <img src="~/data/brands/@item.Avatar" alt="avatar" width="100px" />
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Phone)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Email)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.BRA_Address)
-                </td>
-                    <td class="text-center">
-                        <div class="d-flex justify-content-center gap-2">
-                            <a asp-action="Edit" asp-route-id="@item.BRA_ID" class="text-decoration-none">
-                                <button type="button" class="edit-button">
-                                    <i class="fa-solid fa-pen text-white edit-svgIcon"></i>
-                                </button>
-                            </a>
-                            <a asp-action="Details" asp-route-id="@item.BRA_ID" class="text-decoration-none">
-                                <button type="button" class="detail-button">
-                                    <i class="fa-solid fa-info text-white detail-svgIcon"></i>
-                                </button>
-                            </a>
-                            <form asp-action="DeleteConfirmed" asp-route-id="@item.BRA_ID" method="post" class="d-inline" onsubmit="return confirm('Bạn có chắc là bạn muốn xóa không?');">
-                                <button type="submit" class="trash-button">
-                                    <i class="fa-solid fa-trash text-white trash-svgIcon"></i>
-                                </button>
-                            </form>
-                        </div>
+        @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
                     </td>
-            </tr>
-    }
+                    <td>
+                            <img src="~/data/brands/@item.Avatar" alt="avatar" width="100px" />
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Phone)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.BRA_Address)
+                    </td>
+                        <td class="text-center">
+                            <div class="d-flex justify-content-center gap-2">
+                                <a asp-action="Edit" asp-route-id="@item.BRA_ID" class="text-decoration-none">
+                                    <button type="button" class="edit-button">
+                                        <i class="fa-solid fa-pen text-white edit-svgIcon"></i>
+                                    </button>
+                                </a>
+                                <a asp-action="Details" asp-route-id="@item.BRA_ID" class="text-decoration-none">
+                                    <button type="button" class="detail-button">
+                                        <i class="fa-solid fa-info text-white detail-svgIcon"></i>
+                                    </button>
+                                </a>
+                                <form asp-action="DeleteConfirmed" asp-route-id="@item.BRA_ID" method="post" class="d-inline" onsubmit="return confirm('Bạn có chắc là bạn muốn xóa không?');">
+                                    <button type="submit" class="trash-button">
+                                        <i class="fa-solid fa-trash text-white trash-svgIcon"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </td>
+                </tr>
+        }
         </tbody>
     </table>
 </div>

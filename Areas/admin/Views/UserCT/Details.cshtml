@@ -3,12 +3,8 @@
 @{
     ViewData["Title"] = "Details";
 }
-
-<h1>Details</h1>
-
-<div>
-    <h4>User</h4>
-    <hr />
+<div class="row my-3">
+    <h1>Brand Detail</h1>
     <dl class="row">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Password)
@@ -38,7 +34,14 @@
             @Html.DisplayNameFor(model => model.Gender)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Gender)
+            @if (Model.Gender == true)
+            {
+                <span>Nam</span>
+            }
+            else
+            {
+                <span>Nữ</span>
+            }
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Phone)
@@ -83,8 +86,16 @@
             @Html.DisplayFor(model => model.UpdatedBy)
         </dd>
     </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.USE_ID">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <div class="d-flex align-content-center text-center my-auto">
+        <a asp-action="Index" class="text-decoration-none mx-3">
+            <button type="button" class="back-button">
+                <i class="fa-solid fa-arrow-left text-white back-svgIcon"></i>
+            </button>
+        </a>
+        <a asp-action="Edit" asp-route-id="@Model?.USE_ID" class="text-decoration-none">
+            <button type="button" class="edit-button">
+                <i class="fa-solid fa-pen text-white edit-svgIcon"></i>
+            </button>
+        </a>
+    </div>
 </div>

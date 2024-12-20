@@ -10,6 +10,7 @@ namespace WebCamping.Models
         public int PLA_ID { get; set; }
         public string? Name { get; set; }
         public string? Address { get; set; }
+        public string? Image { get; set; }
         
     }
 }

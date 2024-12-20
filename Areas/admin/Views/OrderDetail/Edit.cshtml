@@ -1,0 +1,54 @@
+﻿@model WebCamping.Models.OrderDetail
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="row">
+    <h1>Order Detail</h1>
+    <hr />
+    <div class="col-md-4 border border-2 rounded-2 ">
+        <h2 class="text-center">Edit Form</h2>
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ORDD_ID" />
+            <div class="form-group">
+                <label asp-for="PRO_ID" class="control-label"></label>
+                <select asp-for="PRO_ID" class="form-control" asp-items="ViewBag.PRO_ID"></select>
+                <span asp-validation-for="PRO_ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ORD_ID" class="control-label"></label>
+                <select asp-for="ORD_ID" class="form-control" asp-items="ViewBag.ORD_ID"></select>
+                <span asp-validation-for="ORD_ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity" class="control-label"></label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiscountPrice" class="control-label"></label>
+                <input asp-for="DiscountPrice" class="form-control" />
+                <span asp-validation-for="DiscountPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group d-flex align-items-center align-content-center text-center my-2">
+                <a asp-action="Index" class="text-decoration-none mx-3">
+                    <button type="button" class="back-button">
+                        <i class="fa-solid fa-arrow-left text-white back-svgIcon"></i>
+                    </button>
+                </a>
+                <input type="submit" value="Save" class="btn btn-success text-black bg-success-subtle rounded rounded-5" />
+                @*                 <input type="submit" value="Save" class="btn btn-success text-black bg-success-subtle mx-3" /> *@
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

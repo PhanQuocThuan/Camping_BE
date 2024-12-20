@@ -1,0 +1,50 @@
+﻿@model WebCamping.Models.OrderDetail
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="row my-5">
+    <h1>Order Detail</h1>
+    <hr />
+    <div class="col-md-4 border border-2 rounded-2">
+        <h2 class="text-center">Create Form</h2>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PRO_ID" class="control-label"></label>
+                <select asp-for="PRO_ID" class ="form-control" asp-items="ViewBag.PRO_ID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ORD_ID" class="control-label"></label>
+                <select asp-for="ORD_ID" class ="form-control" asp-items="ViewBag.ORD_ID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity" class="control-label"></label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiscountPrice" class="control-label"></label>
+                <input asp-for="DiscountPrice" class="form-control" />
+                <span asp-validation-for="DiscountPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group d-flex align-items-center align-content-center text-center my-2">
+                <a asp-action="Index" class="text-decoration-none mx-3">
+                    <button type="button" class="back-button">
+                        @* phải có type button không là nút back nó giống nút save *@
+                        <i class="fa-solid fa-arrow-left text-white back-svgIcon"></i>
+                    </button>
+                </a>
+                <input type="submit" value="Save" class="btn btn-success text-black bg-success-subtle rounded rounded-5" />
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

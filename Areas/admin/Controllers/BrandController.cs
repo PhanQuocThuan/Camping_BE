@@ -89,6 +89,11 @@ namespace WebCamping.Areas.Admin.Controllers
                 string? newImageFileName = null;
                 if (request.Avatar != null)
                 {
+                    var directory = Path.Combine(_hostEnv.WebRootPath, "data", "brands");
+                    if (!Directory.Exists(directory))
+                    {
+                        Directory.CreateDirectory(directory);
+                    }
                     var extension = Path.GetExtension(request.Avatar.FileName);
                     newImageFileName = $"{Guid.NewGuid().ToString()}{extension}";
                     var filePath = Path.Combine(_hostEnv.WebRootPath, "data", "brands", newImageFileName);
@@ -151,15 +156,26 @@ namespace WebCamping.Areas.Admin.Controllers
                     brand.BRA_Address = request.BRA_Address;
                     if (request.Avatar != null)
                     {
-                        if (!string.IsNullOrEmpty(brand.Avatar))
+                        try
                         {
-                            var oldImagePath = Path.Combine(_hostEnv.WebRootPath, "data", "brands", brand.Avatar);
-                            if (System.IO.File.Exists(oldImagePath))
+                            if (!string.IsNullOrEmpty(brand.Avatar))
                             {
-                                System.IO.File.Delete(oldImagePath);
+                                var oldImagePath = Path.Combine(_hostEnv.WebRootPath, "data", "brands", brand.Avatar);
+                                if (System.IO.File.Exists(oldImagePath))
+                                {
+                                    System.IO.File.Delete(oldImagePath);
+                                }
                             }
                         }
-
+                        catch (IOException ex)
+                        {
+                            Console.WriteLine($"Không thể xóa file: {ex.Message}");
+                        }
+                        var directory = Path.Combine(_hostEnv.WebRootPath, "data", "products");
+                                if (!Directory.Exists(directory))
+                        {
+                            Directory.CreateDirectory(directory);
+                        }
                         var extension = Path.GetExtension(request.Avatar.FileName);
                         var newImageFileName = $"{Guid.NewGuid().ToString()}{extension}";
                         var filePath = Path.Combine(_hostEnv.WebRootPath, "data", "brands", newImageFileName);

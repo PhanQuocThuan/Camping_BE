@@ -113,11 +113,11 @@
                             </ul>
                         </li>
                         <li class="nav-item menu-open">
-                            <a href="#" class="nav-link active">
+                            <a asp-action="index" asp-controller="Order" class="nav-link active">
                                 <i class="fa-solid fa-cart-shopping"></i>
                                 <p>
                                     Orders
-                                    <span class="nav-badge badge text-bg-secondary me-3">6</span>
+                                    @* <span class="nav-badge badge text-bg-secondary me-3">6</span> *@
                                 </p>
                             </a>
                         </li>
@@ -141,7 +141,10 @@
                         <li class="nav-item">
                             <a asp-action="index" asp-controller="UserCT" class="nav-link">
                                 <i class="fa-regular fa-user"></i>
-                                <p>Profile <i class="fa-solid fa-chevron-down"></i></p>
+                                <p>
+                                    Profile 
+                                    @* <i class="fa-solid fa-chevron-down"></i> *@
+                                </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
@@ -160,10 +163,10 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="fa-solid fa-stamp"></i>
+                            <a asp-action="index" asp-controller="Review" class="nav-link">
+                                <i class="fa-solid fa-eye"></i>
                                 <p>
-                                    Layout
+                                    Review
                                 </p>
                             </a>
                         </li>   
@@ -172,15 +175,31 @@
                                 <i class="fa-solid fa-campground"></i>
                                 <p>
                                     Products
-                                    <i class="fa-solid fa-chevron-down"></i>
                                 </p>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a asp-action="index" asp-controller="Place" class="nav-link">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>
+                                    Places
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-action="index" asp-controller="Menu" class="nav-link">
+                                <i class="fa-solid fa-bars"></i>
+                                <p>
+                                    Menus
+                                </p>
+                            </a>
+                        </li>
+               
                     </ul>
                 </nav>
             </div>
         </aside>
-        <div class="container">
+        <div class="container ">
             @RenderBody()
         </div>
         <footer class="app-footer d-flex justify-content-between">

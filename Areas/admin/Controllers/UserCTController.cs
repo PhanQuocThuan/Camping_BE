@@ -129,25 +129,25 @@ namespace WebCamping.Areas.Admin.Controllers
         }
 
         // GET: Admin/UserCT/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
+        //public async Task<IActionResult> Delete(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            var user = await _context.Users
-                .FirstOrDefaultAsync(m => m.USE_ID == id);
-            if (user == null)
-            {
-                return NotFound();
-            }
+        //    var user = await _context.Users
+        //        .FirstOrDefaultAsync(m => m.USE_ID == id);
+        //    if (user == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return View(user);
-        }
+        //    return View(user);
+        //}
 
         // POST: Admin/UserCT/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
